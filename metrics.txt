@@ -1,0 +1,1256 @@
+# HELP jmx_config_reload_success_total Number of times configuration have successfully been reloaded.
+# TYPE jmx_config_reload_success_total counter
+jmx_config_reload_success_total 0.0
+# HELP jmx_config_reload_failure_total Number of times configuration have failed to be reloaded.
+# TYPE jmx_config_reload_failure_total counter
+jmx_config_reload_failure_total 0.0
+# HELP jvm_memory_bytes_used Used bytes of a given JVM memory area.
+# TYPE jvm_memory_bytes_used gauge
+jvm_memory_bytes_used{area="heap",} 4.1921024E8
+jvm_memory_bytes_used{area="nonheap",} 5.4597368E7
+# HELP jvm_memory_bytes_committed Committed (bytes) of a given JVM memory area.
+# TYPE jvm_memory_bytes_committed gauge
+jvm_memory_bytes_committed{area="heap",} 1.073741824E9
+jvm_memory_bytes_committed{area="nonheap",} 5.554176E7
+# HELP jvm_memory_bytes_max Max (bytes) of a given JVM memory area.
+# TYPE jvm_memory_bytes_max gauge
+jvm_memory_bytes_max{area="heap",} 1.073741824E9
+jvm_memory_bytes_max{area="nonheap",} -1.0
+# HELP jvm_memory_pool_bytes_used Used bytes of a given JVM memory pool.
+# TYPE jvm_memory_pool_bytes_used gauge
+jvm_memory_pool_bytes_used{pool="Code Cache",} 1.6976896E7
+jvm_memory_pool_bytes_used{pool="Metaspace",} 3.3237496E7
+jvm_memory_pool_bytes_used{pool="Compressed Class Space",} 4382976.0
+jvm_memory_pool_bytes_used{pool="G1 Eden Space",} 2.62144E8
+jvm_memory_pool_bytes_used{pool="G1 Survivor Space",} 1048576.0
+jvm_memory_pool_bytes_used{pool="G1 Old Gen",} 1.56017664E8
+# HELP jvm_memory_pool_bytes_committed Committed bytes of a given JVM memory pool.
+# TYPE jvm_memory_pool_bytes_committed gauge
+jvm_memory_pool_bytes_committed{pool="Code Cache",} 1.7170432E7
+jvm_memory_pool_bytes_committed{pool="Metaspace",} 3.3865728E7
+jvm_memory_pool_bytes_committed{pool="Compressed Class Space",} 4505600.0
+jvm_memory_pool_bytes_committed{pool="G1 Eden Space",} 6.75282944E8
+jvm_memory_pool_bytes_committed{pool="G1 Survivor Space",} 1048576.0
+jvm_memory_pool_bytes_committed{pool="G1 Old Gen",} 3.97410304E8
+# HELP jvm_memory_pool_bytes_max Max bytes of a given JVM memory pool.
+# TYPE jvm_memory_pool_bytes_max gauge
+jvm_memory_pool_bytes_max{pool="Code Cache",} 2.5165824E8
+jvm_memory_pool_bytes_max{pool="Metaspace",} -1.0
+jvm_memory_pool_bytes_max{pool="Compressed Class Space",} 1.073741824E9
+jvm_memory_pool_bytes_max{pool="G1 Eden Space",} -1.0
+jvm_memory_pool_bytes_max{pool="G1 Survivor Space",} -1.0
+jvm_memory_pool_bytes_max{pool="G1 Old Gen",} 1.073741824E9
+# HELP jvm_threads_current Current thread count of a JVM
+# TYPE jvm_threads_current gauge
+jvm_threads_current 60.0
+# HELP jvm_threads_daemon Daemon thread count of a JVM
+# TYPE jvm_threads_daemon gauge
+jvm_threads_daemon 40.0
+# HELP jvm_threads_peak Peak thread count of a JVM
+# TYPE jvm_threads_peak gauge
+jvm_threads_peak 62.0
+# HELP jvm_threads_started_total Started thread count of a JVM
+# TYPE jvm_threads_started_total counter
+jvm_threads_started_total 67.0
+# HELP jvm_threads_deadlocked Cycles of JVM-threads that are in deadlock waiting to acquire object monitors or ownable synchronizers
+# TYPE jvm_threads_deadlocked gauge
+jvm_threads_deadlocked 0.0
+# HELP jvm_threads_deadlocked_monitor Cycles of JVM-threads that are in deadlock waiting to acquire object monitors
+# TYPE jvm_threads_deadlocked_monitor gauge
+jvm_threads_deadlocked_monitor 0.0
+# HELP jvm_classes_loaded The number of classes that are currently loaded in the JVM
+# TYPE jvm_classes_loaded gauge
+jvm_classes_loaded 5619.0
+# HELP jvm_classes_loaded_total The total number of classes that have been loaded since the JVM has started execution
+# TYPE jvm_classes_loaded_total counter
+jvm_classes_loaded_total 5619.0
+# HELP jvm_classes_unloaded_total The total number of classes that have been unloaded since the JVM has started execution
+# TYPE jvm_classes_unloaded_total counter
+jvm_classes_unloaded_total 0.0
+# HELP kafka_server_brokertopicmetrics_producemessageconversions_total Attribute exposed for management (kafka.server<type=BrokerTopicMetrics, name=ProduceMessageConversionsPerSec><>Count)
+# TYPE kafka_server_brokertopicmetrics_producemessageconversions_total counter
+kafka_server_brokertopicmetrics_producemessageconversions_total 0.0
+# HELP kafka_server_replicafetchermanager_minfetchrate Attribute exposed for management (kafka.server<type=ReplicaFetcherManager, name=MinFetchRate, clientId=Replica><>Value)
+# TYPE kafka_server_replicafetchermanager_minfetchrate gauge
+kafka_server_replicafetchermanager_minfetchrate{clientId="Replica",} 0.0
+# HELP kafka_cluster_partition_replicascount Attribute exposed for management (kafka.cluster<type=Partition, name=ReplicasCount, topic=__consumer_offsets, partition=15><>Value)
+# TYPE kafka_cluster_partition_replicascount gauge
+kafka_cluster_partition_replicascount{partition="15",topic="__consumer_offsets",} 1.0
+kafka_cluster_partition_replicascount{partition="37",topic="__consumer_offsets",} 1.0
+kafka_cluster_partition_replicascount{partition="36",topic="__consumer_offsets",} 1.0
+kafka_cluster_partition_replicascount{partition="3",topic="__consumer_offsets",} 1.0
+kafka_cluster_partition_replicascount{partition="2",topic="__consumer_offsets",} 1.0
+kafka_cluster_partition_replicascount{partition="16",topic="__consumer_offsets",} 1.0
+kafka_cluster_partition_replicascount{partition="38",topic="__consumer_offsets",} 1.0
+kafka_cluster_partition_replicascount{partition="14",topic="__consumer_offsets",} 1.0
+kafka_cluster_partition_replicascount{partition="1",topic="__consumer_offsets",} 1.0
+kafka_cluster_partition_replicascount{partition="5",topic="__consumer_offsets",} 1.0
+kafka_cluster_partition_replicascount{partition="0",topic="__consumer_offsets",} 1.0
+kafka_cluster_partition_replicascount{partition="18",topic="__consumer_offsets",} 1.0
+kafka_cluster_partition_replicascount{partition="13",topic="__consumer_offsets",} 1.0
+kafka_cluster_partition_replicascount{partition="11",topic="__consumer_offsets",} 1.0
+kafka_cluster_partition_replicascount{partition="35",topic="__consumer_offsets",} 1.0
+kafka_cluster_partition_replicascount{partition="41",topic="__consumer_offsets",} 1.0
+kafka_cluster_partition_replicascount{partition="42",topic="__consumer_offsets",} 1.0
+kafka_cluster_partition_replicascount{partition="20",topic="__consumer_offsets",} 1.0
+kafka_cluster_partition_replicascount{partition="8",topic="__consumer_offsets",} 1.0
+kafka_cluster_partition_replicascount{partition="33",topic="__consumer_offsets",} 1.0
+kafka_cluster_partition_replicascount{partition="43",topic="__consumer_offsets",} 1.0
+kafka_cluster_partition_replicascount{partition="21",topic="__consumer_offsets",} 1.0
+kafka_cluster_partition_replicascount{partition="34",topic="__consumer_offsets",} 1.0
+kafka_cluster_partition_replicascount{partition="39",topic="__consumer_offsets",} 1.0
+kafka_cluster_partition_replicascount{partition="9",topic="__consumer_offsets",} 1.0
+kafka_cluster_partition_replicascount{partition="17",topic="__consumer_offsets",} 1.0
+kafka_cluster_partition_replicascount{partition="4",topic="__consumer_offsets",} 1.0
+kafka_cluster_partition_replicascount{partition="12",topic="__consumer_offsets",} 1.0
+kafka_cluster_partition_replicascount{partition="26",topic="__consumer_offsets",} 1.0
+kafka_cluster_partition_replicascount{partition="47",topic="__consumer_offsets",} 1.0
+kafka_cluster_partition_replicascount{partition="48",topic="__consumer_offsets",} 1.0
+kafka_cluster_partition_replicascount{partition="25",topic="__consumer_offsets",} 1.0
+kafka_cluster_partition_replicascount{partition="27",topic="__consumer_offsets",} 1.0
+kafka_cluster_partition_replicascount{partition="49",topic="__consumer_offsets",} 1.0
+kafka_cluster_partition_replicascount{partition="46",topic="__consumer_offsets",} 1.0
+kafka_cluster_partition_replicascount{partition="30",topic="__consumer_offsets",} 1.0
+kafka_cluster_partition_replicascount{partition="0",topic="test",} 1.0
+kafka_cluster_partition_replicascount{partition="24",topic="__consumer_offsets",} 1.0
+kafka_cluster_partition_replicascount{partition="29",topic="__consumer_offsets",} 1.0
+kafka_cluster_partition_replicascount{partition="10",topic="__consumer_offsets",} 1.0
+kafka_cluster_partition_replicascount{partition="31",topic="__consumer_offsets",} 1.0
+kafka_cluster_partition_replicascount{partition="22",topic="__consumer_offsets",} 1.0
+kafka_cluster_partition_replicascount{partition="19",topic="__consumer_offsets",} 1.0
+kafka_cluster_partition_replicascount{partition="6",topic="__consumer_offsets",} 1.0
+kafka_cluster_partition_replicascount{partition="32",topic="__consumer_offsets",} 1.0
+kafka_cluster_partition_replicascount{partition="7",topic="__consumer_offsets",} 1.0
+kafka_cluster_partition_replicascount{partition="44",topic="__consumer_offsets",} 1.0
+kafka_cluster_partition_replicascount{partition="23",topic="__consumer_offsets",} 1.0
+kafka_cluster_partition_replicascount{partition="28",topic="__consumer_offsets",} 1.0
+kafka_cluster_partition_replicascount{partition="40",topic="__consumer_offsets",} 1.0
+kafka_cluster_partition_replicascount{partition="45",topic="__consumer_offsets",} 1.0
+# HELP kafka_network_requestmetrics_totaltimems Attribute exposed for management (kafka.network<type=RequestMetrics, name=TotalTimeMs, request=DeleteTopics><>Count)
+# TYPE kafka_network_requestmetrics_totaltimems gauge
+kafka_network_requestmetrics_totaltimems{request="DeleteTopics",} 0.0
+kafka_network_requestmetrics_totaltimems{request="LeaveGroup",} 0.0
+kafka_network_requestmetrics_totaltimems{request="AlterReplicaLogDirs",} 0.0
+kafka_network_requestmetrics_totaltimems{request="FindCoordinator",} 0.0
+kafka_network_requestmetrics_totaltimems{request="OffsetFetch",} 0.0
+kafka_network_requestmetrics_totaltimems{request="JoinGroup",} 0.0
+kafka_network_requestmetrics_totaltimems{request="ListGroups",} 0.0
+kafka_network_requestmetrics_totaltimems{request="RenewDelegationToken",} 0.0
+kafka_network_requestmetrics_totaltimems{request="SyncGroup",} 0.0
+kafka_network_requestmetrics_totaltimems{request="Fetch",} 0.0
+kafka_network_requestmetrics_totaltimems{request="Produce",} 0.0
+kafka_network_requestmetrics_totaltimems{request="EndTxn",} 0.0
+kafka_network_requestmetrics_totaltimems{request="DeleteAcls",} 0.0
+kafka_network_requestmetrics_totaltimems{request="DescribeGroups",} 0.0
+kafka_network_requestmetrics_totaltimems{request="OffsetForLeaderEpoch",} 0.0
+kafka_network_requestmetrics_totaltimems{request="Metadata",} 0.0
+kafka_network_requestmetrics_totaltimems{request="CreatePartitions",} 0.0
+kafka_network_requestmetrics_totaltimems{request="LeaderAndIsr",} 1.0
+kafka_network_requestmetrics_totaltimems{request="SaslHandshake",} 0.0
+kafka_network_requestmetrics_totaltimems{request="DescribeAcls",} 0.0
+kafka_network_requestmetrics_totaltimems{request="UpdateMetadata",} 2.0
+kafka_network_requestmetrics_totaltimems{request="SaslAuthenticate",} 0.0
+kafka_network_requestmetrics_totaltimems{request="Heartbeat",} 0.0
+kafka_network_requestmetrics_totaltimems{request="CreateTopics",} 0.0
+kafka_network_requestmetrics_totaltimems{request="AlterConfigs",} 0.0
+kafka_network_requestmetrics_totaltimems{request="TxnOffsetCommit",} 0.0
+kafka_network_requestmetrics_totaltimems{request="FetchConsumer",} 0.0
+kafka_network_requestmetrics_totaltimems{request="FetchFollower",} 0.0
+kafka_network_requestmetrics_totaltimems{request="DescribeDelegationToken",} 0.0
+kafka_network_requestmetrics_totaltimems{request="CreateAcls",} 0.0
+kafka_network_requestmetrics_totaltimems{request="WriteTxnMarkers",} 0.0
+kafka_network_requestmetrics_totaltimems{request="DescribeConfigs",} 0.0
+kafka_network_requestmetrics_totaltimems{request="ListOffsets",} 0.0
+kafka_network_requestmetrics_totaltimems{request="DeleteRecords",} 0.0
+kafka_network_requestmetrics_totaltimems{request="ControlledShutdown",} 0.0
+kafka_network_requestmetrics_totaltimems{request="InitProducerId",} 0.0
+kafka_network_requestmetrics_totaltimems{request="AddPartitionsToTxn",} 0.0
+kafka_network_requestmetrics_totaltimems{request="DeleteGroups",} 0.0
+kafka_network_requestmetrics_totaltimems{request="DescribeLogDirs",} 0.0
+kafka_network_requestmetrics_totaltimems{request="CreateDelegationToken",} 0.0
+kafka_network_requestmetrics_totaltimems{request="ApiVersions",} 0.0
+kafka_network_requestmetrics_totaltimems{request="StopReplica",} 0.0
+kafka_network_requestmetrics_totaltimems{request="AddOffsetsToTxn",} 0.0
+kafka_network_requestmetrics_totaltimems{request="OffsetCommit",} 0.0
+kafka_network_requestmetrics_totaltimems{request="ExpireDelegationToken",} 0.0
+# HELP kafka_controller_kafkacontroller_globalpartitioncount Attribute exposed for management (kafka.controller<type=KafkaController, name=GlobalPartitionCount><>Value)
+# TYPE kafka_controller_kafkacontroller_globalpartitioncount gauge
+kafka_controller_kafkacontroller_globalpartitioncount 51.0
+# HELP kafka_server_kafkaserver_yammer_metrics_count Attribute exposed for management (kafka.server<type=KafkaServer, name=yammer-metrics-count><>Value)
+# TYPE kafka_server_kafkaserver_yammer_metrics_count gauge
+kafka_server_kafkaserver_yammer_metrics_count 933.0
+# HELP kafka_server_delayedoperationpurgatory_numdelayedoperations_delayedoperation_txn_marker_purgatory Attribute exposed for management (kafka.server<type=DelayedOperationPurgatory, name=NumDelayedOperations, delayedOperation=txn-marker-purgatory><>Value)
+# TYPE kafka_server_delayedoperationpurgatory_numdelayedoperations_delayedoperation_txn_marker_purgatory gauge
+kafka_server_delayedoperationpurgatory_numdelayedoperations_delayedoperation_txn_marker_purgatory 0.0
+# HELP kafka_server_sessionexpirelistener_zookeeperexpires_total Attribute exposed for management (kafka.server<type=SessionExpireListener, name=ZooKeeperExpiresPerSec><>Count)
+# TYPE kafka_server_sessionexpirelistener_zookeeperexpires_total counter
+kafka_server_sessionexpirelistener_zookeeperexpires_total 0.0
+# HELP kafka_log_logcleaner_max_clean_time_secs_value Attribute exposed for management (kafka.log<type=LogCleaner, name=max-clean-time-secs><>Value)
+# TYPE kafka_log_logcleaner_max_clean_time_secs_value counter
+kafka_log_logcleaner_max_clean_time_secs_value -1.534920255E9
+# HELP kafka_network_requestmetrics_messageconversionstimems Attribute exposed for management (kafka.network<type=RequestMetrics, name=MessageConversionsTimeMs, request=Fetch><>Count)
+# TYPE kafka_network_requestmetrics_messageconversionstimems gauge
+kafka_network_requestmetrics_messageconversionstimems{request="Fetch",} 0.0
+kafka_network_requestmetrics_messageconversionstimems{request="Produce",} 0.0
+# HELP kafka_server_delayedoperationpurgatory_numdelayedoperations_delayedoperation_produce Attribute exposed for management (kafka.server<type=DelayedOperationPurgatory, name=NumDelayedOperations, delayedOperation=Produce><>Value)
+# TYPE kafka_server_delayedoperationpurgatory_numdelayedoperations_delayedoperation_produce gauge
+kafka_server_delayedoperationpurgatory_numdelayedoperations_delayedoperation_produce 0.0
+# HELP kafka_server_delayedoperationpurgatory_purgatorysize_delayedoperation_topic Attribute exposed for management (kafka.server<type=DelayedOperationPurgatory, name=PurgatorySize, delayedOperation=topic><>Value)
+# TYPE kafka_server_delayedoperationpurgatory_purgatorysize_delayedoperation_topic gauge
+kafka_server_delayedoperationpurgatory_purgatorysize_delayedoperation_topic 0.0
+# HELP kafka_server_delayedoperationpurgatory_numdelayedoperations_delayedoperation_deleterecords Attribute exposed for management (kafka.server<type=DelayedOperationPurgatory, name=NumDelayedOperations, delayedOperation=DeleteRecords><>Value)
+# TYPE kafka_server_delayedoperationpurgatory_numdelayedoperations_delayedoperation_deleterecords gauge
+kafka_server_delayedoperationpurgatory_numdelayedoperations_delayedoperation_deleterecords 0.0
+# HELP kafka_log_logcleanermanager_time_since_last_run_ms_value Attribute exposed for management (kafka.log<type=LogCleanerManager, name=time-since-last-run-ms><>Value)
+# TYPE kafka_log_logcleanermanager_time_since_last_run_ms_value counter
+kafka_log_logcleanermanager_time_since_last_run_ms_value 2438.0
+# HELP kafka_log_logcleanermanager_max_dirty_percent_value Attribute exposed for management (kafka.log<type=LogCleanerManager, name=max-dirty-percent><>Value)
+# TYPE kafka_log_logcleanermanager_max_dirty_percent_value counter
+kafka_log_logcleanermanager_max_dirty_percent_value 0.0
+# HELP kafka_network_processor_idlepercent_networkprocessor_2 Attribute exposed for management (kafka.network<type=Processor, name=IdlePercent, networkProcessor=2><>Value)
+# TYPE kafka_network_processor_idlepercent_networkprocessor_2 gauge
+kafka_network_processor_idlepercent_networkprocessor_2 1.0063258718929669
+# HELP kafka_network_socketserver_networkprocessoravgidlepercent Attribute exposed for management (kafka.network<type=SocketServer, name=NetworkProcessorAvgIdlePercent><>Value)
+# TYPE kafka_network_socketserver_networkprocessoravgidlepercent gauge
+kafka_network_socketserver_networkprocessoravgidlepercent 1.0047051542169336
+# HELP kafka_network_socketserver_memorypoolavailable Attribute exposed for management (kafka.network<type=SocketServer, name=MemoryPoolAvailable><>Value)
+# TYPE kafka_network_socketserver_memorypoolavailable gauge
+kafka_network_socketserver_memorypoolavailable 9.223372036854776E18
+# HELP kafka_network_processor_idlepercent_networkprocessor_0 Attribute exposed for management (kafka.network<type=Processor, name=IdlePercent, networkProcessor=0><>Value)
+# TYPE kafka_network_processor_idlepercent_networkprocessor_0 gauge
+kafka_network_processor_idlepercent_networkprocessor_0 1.002858338841042
+# HELP kafka_network_processor_idlepercent_networkprocessor_1 Attribute exposed for management (kafka.network<type=Processor, name=IdlePercent, networkProcessor=1><>Value)
+# TYPE kafka_network_processor_idlepercent_networkprocessor_1 gauge
+kafka_network_processor_idlepercent_networkprocessor_1 1.0008004062433682
+# HELP kafka_controller_controllereventmanager_eventqueuesize Attribute exposed for management (kafka.controller<type=ControllerEventManager, name=EventQueueSize><>Value)
+# TYPE kafka_controller_controllereventmanager_eventqueuesize gauge
+kafka_controller_controllereventmanager_eventqueuesize 0.0
+# HELP kafka_server_fetchsessioncache_numincrementalfetchsessions Attribute exposed for management (kafka.server<type=FetchSessionCache, name=NumIncrementalFetchSessions><>Value)
+# TYPE kafka_server_fetchsessioncache_numincrementalfetchsessions gauge
+kafka_server_fetchsessioncache_numincrementalfetchsessions 0.0
+# HELP kafka_server_brokertopicmetrics_messagesin_total Attribute exposed for management (kafka.server<type=BrokerTopicMetrics, name=MessagesInPerSec><>Count)
+# TYPE kafka_server_brokertopicmetrics_messagesin_total counter
+kafka_server_brokertopicmetrics_messagesin_total 0.0
+# HELP kafka_cluster_partition_insyncreplicascount Attribute exposed for management (kafka.cluster<type=Partition, name=InSyncReplicasCount, topic=__consumer_offsets, partition=13><>Value)
+# TYPE kafka_cluster_partition_insyncreplicascount gauge
+kafka_cluster_partition_insyncreplicascount{partition="13",topic="__consumer_offsets",} 1.0
+kafka_cluster_partition_insyncreplicascount{partition="4",topic="__consumer_offsets",} 1.0
+kafka_cluster_partition_insyncreplicascount{partition="0",topic="test",} 1.0
+kafka_cluster_partition_insyncreplicascount{partition="5",topic="__consumer_offsets",} 1.0
+kafka_cluster_partition_insyncreplicascount{partition="34",topic="__consumer_offsets",} 1.0
+kafka_cluster_partition_insyncreplicascount{partition="14",topic="__consumer_offsets",} 1.0
+kafka_cluster_partition_insyncreplicascount{partition="3",topic="__consumer_offsets",} 1.0
+kafka_cluster_partition_insyncreplicascount{partition="36",topic="__consumer_offsets",} 1.0
+kafka_cluster_partition_insyncreplicascount{partition="12",topic="__consumer_offsets",} 1.0
+kafka_cluster_partition_insyncreplicascount{partition="35",topic="__consumer_offsets",} 1.0
+kafka_cluster_partition_insyncreplicascount{partition="7",topic="__consumer_offsets",} 1.0
+kafka_cluster_partition_insyncreplicascount{partition="2",topic="__consumer_offsets",} 1.0
+kafka_cluster_partition_insyncreplicascount{partition="16",topic="__consumer_offsets",} 1.0
+kafka_cluster_partition_insyncreplicascount{partition="11",topic="__consumer_offsets",} 1.0
+kafka_cluster_partition_insyncreplicascount{partition="31",topic="__consumer_offsets",} 1.0
+kafka_cluster_partition_insyncreplicascount{partition="33",topic="__consumer_offsets",} 1.0
+kafka_cluster_partition_insyncreplicascount{partition="0",topic="__consumer_offsets",} 1.0
+kafka_cluster_partition_insyncreplicascount{partition="38",topic="__consumer_offsets",} 1.0
+kafka_cluster_partition_insyncreplicascount{partition="29",topic="__consumer_offsets",} 1.0
+kafka_cluster_partition_insyncreplicascount{partition="19",topic="__consumer_offsets",} 1.0
+kafka_cluster_partition_insyncreplicascount{partition="40",topic="__consumer_offsets",} 1.0
+kafka_cluster_partition_insyncreplicascount{partition="28",topic="__consumer_offsets",} 1.0
+kafka_cluster_partition_insyncreplicascount{partition="41",topic="__consumer_offsets",} 1.0
+kafka_cluster_partition_insyncreplicascount{partition="37",topic="__consumer_offsets",} 1.0
+kafka_cluster_partition_insyncreplicascount{partition="32",topic="__consumer_offsets",} 1.0
+kafka_cluster_partition_insyncreplicascount{partition="1",topic="__consumer_offsets",} 1.0
+kafka_cluster_partition_insyncreplicascount{partition="15",topic="__consumer_offsets",} 1.0
+kafka_cluster_partition_insyncreplicascount{partition="6",topic="__consumer_offsets",} 1.0
+kafka_cluster_partition_insyncreplicascount{partition="10",topic="__consumer_offsets",} 1.0
+kafka_cluster_partition_insyncreplicascount{partition="45",topic="__consumer_offsets",} 1.0
+kafka_cluster_partition_insyncreplicascount{partition="46",topic="__consumer_offsets",} 1.0
+kafka_cluster_partition_insyncreplicascount{partition="23",topic="__consumer_offsets",} 1.0
+kafka_cluster_partition_insyncreplicascount{partition="25",topic="__consumer_offsets",} 1.0
+kafka_cluster_partition_insyncreplicascount{partition="47",topic="__consumer_offsets",} 1.0
+kafka_cluster_partition_insyncreplicascount{partition="24",topic="__consumer_offsets",} 1.0
+kafka_cluster_partition_insyncreplicascount{partition="42",topic="__consumer_offsets",} 1.0
+kafka_cluster_partition_insyncreplicascount{partition="20",topic="__consumer_offsets",} 1.0
+kafka_cluster_partition_insyncreplicascount{partition="44",topic="__consumer_offsets",} 1.0
+kafka_cluster_partition_insyncreplicascount{partition="49",topic="__consumer_offsets",} 1.0
+kafka_cluster_partition_insyncreplicascount{partition="22",topic="__consumer_offsets",} 1.0
+kafka_cluster_partition_insyncreplicascount{partition="27",topic="__consumer_offsets",} 1.0
+kafka_cluster_partition_insyncreplicascount{partition="39",topic="__consumer_offsets",} 1.0
+kafka_cluster_partition_insyncreplicascount{partition="17",topic="__consumer_offsets",} 1.0
+kafka_cluster_partition_insyncreplicascount{partition="8",topic="__consumer_offsets",} 1.0
+kafka_cluster_partition_insyncreplicascount{partition="9",topic="__consumer_offsets",} 1.0
+kafka_cluster_partition_insyncreplicascount{partition="30",topic="__consumer_offsets",} 1.0
+kafka_cluster_partition_insyncreplicascount{partition="18",topic="__consumer_offsets",} 1.0
+kafka_cluster_partition_insyncreplicascount{partition="48",topic="__consumer_offsets",} 1.0
+kafka_cluster_partition_insyncreplicascount{partition="21",topic="__consumer_offsets",} 1.0
+kafka_cluster_partition_insyncreplicascount{partition="26",topic="__consumer_offsets",} 1.0
+kafka_cluster_partition_insyncreplicascount{partition="43",topic="__consumer_offsets",} 1.0
+# HELP kafka_server_brokertopicmetrics_bytesout_total Attribute exposed for management (kafka.server<type=BrokerTopicMetrics, name=BytesOutPerSec><>Count)
+# TYPE kafka_server_brokertopicmetrics_bytesout_total counter
+kafka_server_brokertopicmetrics_bytesout_total 0.0
+# HELP kafka_server_replicafetchermanager_maxlag Attribute exposed for management (kafka.server<type=ReplicaFetcherManager, name=MaxLag, clientId=Replica><>Value)
+# TYPE kafka_server_replicafetchermanager_maxlag gauge
+kafka_server_replicafetchermanager_maxlag{clientId="Replica",} 0.0
+# HELP kafka_network_requestmetrics_remotetimems Attribute exposed for management (kafka.network<type=RequestMetrics, name=RemoteTimeMs, request=LeaveGroup><>Count)
+# TYPE kafka_network_requestmetrics_remotetimems gauge
+kafka_network_requestmetrics_remotetimems{request="LeaveGroup",} 0.0
+kafka_network_requestmetrics_remotetimems{request="DeleteRecords",} 0.0
+kafka_network_requestmetrics_remotetimems{request="SyncGroup",} 0.0
+kafka_network_requestmetrics_remotetimems{request="SaslHandshake",} 0.0
+kafka_network_requestmetrics_remotetimems{request="Produce",} 0.0
+kafka_network_requestmetrics_remotetimems{request="ListGroups",} 0.0
+kafka_network_requestmetrics_remotetimems{request="WriteTxnMarkers",} 0.0
+kafka_network_requestmetrics_remotetimems{request="TxnOffsetCommit",} 0.0
+kafka_network_requestmetrics_remotetimems{request="ControlledShutdown",} 0.0
+kafka_network_requestmetrics_remotetimems{request="SaslAuthenticate",} 0.0
+kafka_network_requestmetrics_remotetimems{request="DeleteAcls",} 0.0
+kafka_network_requestmetrics_remotetimems{request="EndTxn",} 0.0
+kafka_network_requestmetrics_remotetimems{request="OffsetForLeaderEpoch",} 0.0
+kafka_network_requestmetrics_remotetimems{request="DescribeAcls",} 0.0
+kafka_network_requestmetrics_remotetimems{request="DescribeConfigs",} 0.0
+kafka_network_requestmetrics_remotetimems{request="Fetch",} 0.0
+kafka_network_requestmetrics_remotetimems{request="RenewDelegationToken",} 0.0
+kafka_network_requestmetrics_remotetimems{request="OffsetFetch",} 0.0
+kafka_network_requestmetrics_remotetimems{request="FindCoordinator",} 0.0
+kafka_network_requestmetrics_remotetimems{request="AddPartitionsToTxn",} 0.0
+kafka_network_requestmetrics_remotetimems{request="LeaderAndIsr",} 1.0
+kafka_network_requestmetrics_remotetimems{request="JoinGroup",} 0.0
+kafka_network_requestmetrics_remotetimems{request="AddOffsetsToTxn",} 0.0
+kafka_network_requestmetrics_remotetimems{request="InitProducerId",} 0.0
+kafka_network_requestmetrics_remotetimems{request="CreateTopics",} 0.0
+kafka_network_requestmetrics_remotetimems{request="UpdateMetadata",} 2.0
+kafka_network_requestmetrics_remotetimems{request="ExpireDelegationToken",} 0.0
+kafka_network_requestmetrics_remotetimems{request="ListOffsets",} 0.0
+kafka_network_requestmetrics_remotetimems{request="Metadata",} 0.0
+kafka_network_requestmetrics_remotetimems{request="DescribeLogDirs",} 0.0
+kafka_network_requestmetrics_remotetimems{request="AlterConfigs",} 0.0
+kafka_network_requestmetrics_remotetimems{request="DeleteGroups",} 0.0
+kafka_network_requestmetrics_remotetimems{request="CreateDelegationToken",} 0.0
+kafka_network_requestmetrics_remotetimems{request="DeleteTopics",} 0.0
+kafka_network_requestmetrics_remotetimems{request="CreateAcls",} 0.0
+kafka_network_requestmetrics_remotetimems{request="Heartbeat",} 0.0
+kafka_network_requestmetrics_remotetimems{request="ApiVersions",} 0.0
+kafka_network_requestmetrics_remotetimems{request="StopReplica",} 0.0
+kafka_network_requestmetrics_remotetimems{request="AlterReplicaLogDirs",} 0.0
+kafka_network_requestmetrics_remotetimems{request="OffsetCommit",} 0.0
+kafka_network_requestmetrics_remotetimems{request="FetchFollower",} 0.0
+kafka_network_requestmetrics_remotetimems{request="FetchConsumer",} 0.0
+kafka_network_requestmetrics_remotetimems{request="DescribeDelegationToken",} 0.0
+kafka_network_requestmetrics_remotetimems{request="CreatePartitions",} 0.0
+kafka_network_requestmetrics_remotetimems{request="DescribeGroups",} 0.0
+# HELP kafka_server_replicamanager_underminisrpartitioncount Attribute exposed for management (kafka.server<type=ReplicaManager, name=UnderMinIsrPartitionCount><>Value)
+# TYPE kafka_server_replicamanager_underminisrpartitioncount gauge
+kafka_server_replicamanager_underminisrpartitioncount 0.0
+# HELP kafka_server_kafkarequesthandlerpool_requesthandleravgidlepercent Attribute exposed for management (kafka.server<type=KafkaRequestHandlerPool, name=RequestHandlerAvgIdlePercent><>Count)
+# TYPE kafka_server_kafkarequesthandlerpool_requesthandleravgidlepercent gauge
+kafka_server_kafkarequesthandlerpool_requesthandleravgidlepercent 8.1754452513671E13
+# HELP kafka_server_replicaalterlogdirsmanager_maxlag Attribute exposed for management (kafka.server<type=ReplicaAlterLogDirsManager, name=MaxLag, clientId=ReplicaAlterLogDirs><>Value)
+# TYPE kafka_server_replicaalterlogdirsmanager_maxlag gauge
+kafka_server_replicaalterlogdirsmanager_maxlag{clientId="ReplicaAlterLogDirs",} 0.0
+# HELP kafka_utils_throttler_cleaner_io_count Attribute exposed for management (kafka.utils<type=Throttler, name=cleaner-io><>Count)
+# TYPE kafka_utils_throttler_cleaner_io_count counter
+kafka_utils_throttler_cleaner_io_count 0.0
+# HELP kafka_server_delayedoperationpurgatory_purgatorysize_delayedoperation_txn_marker_purgatory Attribute exposed for management (kafka.server<type=DelayedOperationPurgatory, name=PurgatorySize, delayedOperation=txn-marker-purgatory><>Value)
+# TYPE kafka_server_delayedoperationpurgatory_purgatorysize_delayedoperation_txn_marker_purgatory gauge
+kafka_server_delayedoperationpurgatory_purgatorysize_delayedoperation_txn_marker_purgatory 0.0
+# HELP kafka_server_fetchsessioncache_incrementalfetchsessionevictions_total Attribute exposed for management (kafka.server<type=FetchSessionCache, name=IncrementalFetchSessionEvictionsPerSec><>Count)
+# TYPE kafka_server_fetchsessioncache_incrementalfetchsessionevictions_total counter
+kafka_server_fetchsessioncache_incrementalfetchsessionevictions_total 0.0
+# HELP kafka_server_replicamanager_offlinereplicacount Attribute exposed for management (kafka.server<type=ReplicaManager, name=OfflineReplicaCount><>Value)
+# TYPE kafka_server_replicamanager_offlinereplicacount gauge
+kafka_server_replicamanager_offlinereplicacount 0.0
+# HELP kafka_server_sessionexpirelistener_zookeeperdisconnects_total Attribute exposed for management (kafka.server<type=SessionExpireListener, name=ZooKeeperDisconnectsPerSec><>Count)
+# TYPE kafka_server_sessionexpirelistener_zookeeperdisconnects_total counter
+kafka_server_sessionexpirelistener_zookeeperdisconnects_total 0.0
+# HELP kafka_controller_kafkacontroller_activecontrollercount Attribute exposed for management (kafka.controller<type=KafkaController, name=ActiveControllerCount><>Value)
+# TYPE kafka_controller_kafkacontroller_activecontrollercount gauge
+kafka_controller_kafkacontroller_activecontrollercount 1.0
+# HELP kafka_server_delayedoperationpurgatory_purgatorysize_delayedoperation_deleterecords Attribute exposed for management (kafka.server<type=DelayedOperationPurgatory, name=PurgatorySize, delayedOperation=DeleteRecords><>Value)
+# TYPE kafka_server_delayedoperationpurgatory_purgatorysize_delayedoperation_deleterecords gauge
+kafka_server_delayedoperationpurgatory_purgatorysize_delayedoperation_deleterecords 0.0
+# HELP kafka_server_brokertopicmetrics_totalfetchrequests_total Attribute exposed for management (kafka.server<type=BrokerTopicMetrics, name=TotalFetchRequestsPerSec><>Count)
+# TYPE kafka_server_brokertopicmetrics_totalfetchrequests_total counter
+kafka_server_brokertopicmetrics_totalfetchrequests_total 0.0
+# HELP kafka_controller_kafkacontroller_preferredreplicaimbalancecount Attribute exposed for management (kafka.controller<type=KafkaController, name=PreferredReplicaImbalanceCount><>Value)
+# TYPE kafka_controller_kafkacontroller_preferredreplicaimbalancecount gauge
+kafka_controller_kafkacontroller_preferredreplicaimbalancecount 0.0
+# HELP kafka_server_delayedoperationpurgatory_purgatorysize_delayedoperation_fetch Attribute exposed for management (kafka.server<type=DelayedOperationPurgatory, name=PurgatorySize, delayedOperation=Fetch><>Value)
+# TYPE kafka_server_delayedoperationpurgatory_purgatorysize_delayedoperation_fetch gauge
+kafka_server_delayedoperationpurgatory_purgatorysize_delayedoperation_fetch 0.0
+# HELP kafka_log_logcleaner_cleaner_recopy_percent_value Attribute exposed for management (kafka.log<type=LogCleaner, name=cleaner-recopy-percent><>Value)
+# TYPE kafka_log_logcleaner_cleaner_recopy_percent_value counter
+kafka_log_logcleaner_cleaner_recopy_percent_value 0.0
+# HELP kafka_controller_controllerstats_topicdeletionrateandtimems Attribute exposed for management (kafka.controller<type=ControllerStats, name=TopicDeletionRateAndTimeMs><>Count)
+# TYPE kafka_controller_controllerstats_topicdeletionrateandtimems gauge
+kafka_controller_controllerstats_topicdeletionrateandtimems 0.0
+# HELP kafka_server_replicamanager_failedisrupdates_total Attribute exposed for management (kafka.server<type=ReplicaManager, name=FailedIsrUpdatesPerSec><>Count)
+# TYPE kafka_server_replicamanager_failedisrupdates_total counter
+kafka_server_replicamanager_failedisrupdates_total 0.0
+# HELP kafka_controller_controllerstats_controlledshutdownrateandtimems Attribute exposed for management (kafka.controller<type=ControllerStats, name=ControlledShutdownRateAndTimeMs><>Count)
+# TYPE kafka_controller_controllerstats_controlledshutdownrateandtimems gauge
+kafka_controller_controllerstats_controlledshutdownrateandtimems 0.0
+# HELP kafka_controller_kafkacontroller_offlinepartitionscount Attribute exposed for management (kafka.controller<type=KafkaController, name=OfflinePartitionsCount><>Value)
+# TYPE kafka_controller_kafkacontroller_offlinepartitionscount gauge
+kafka_controller_kafkacontroller_offlinepartitionscount 0.0
+# HELP kafka_controller_controllerstats_uncleanleaderelectionenablerateandtimems Attribute exposed for management (kafka.controller<type=ControllerStats, name=UncleanLeaderElectionEnableRateAndTimeMs><>Count)
+# TYPE kafka_controller_controllerstats_uncleanleaderelectionenablerateandtimems gauge
+kafka_controller_controllerstats_uncleanleaderelectionenablerateandtimems 0.0
+# HELP kafka_network_requestmetrics_errors_total Attribute exposed for management (kafka.network<type=RequestMetrics, name=ErrorsPerSec, request=UpdateMetadata, error=NONE><>Count)
+# TYPE kafka_network_requestmetrics_errors_total gauge
+kafka_network_requestmetrics_errors_total{request="UpdateMetadata, error=NONE",} 2.0
+kafka_network_requestmetrics_errors_total{request="LeaderAndIsr, error=NONE",} 51.0
+# HELP kafka_server_kafkaserver_brokerstate Attribute exposed for management (kafka.server<type=KafkaServer, name=BrokerState><>Value)
+# TYPE kafka_server_kafkaserver_brokerstate gauge
+kafka_server_kafkaserver_brokerstate 3.0
+# HELP kafka_server_delayedoperationpurgatory_numdelayedoperations_delayedoperation_heartbeat Attribute exposed for management (kafka.server<type=DelayedOperationPurgatory, name=NumDelayedOperations, delayedOperation=Heartbeat><>Value)
+# TYPE kafka_server_delayedoperationpurgatory_numdelayedoperations_delayedoperation_heartbeat gauge
+kafka_server_delayedoperationpurgatory_numdelayedoperations_delayedoperation_heartbeat 0.0
+# HELP kafka_controller_kafkacontroller_globaltopiccount Attribute exposed for management (kafka.controller<type=KafkaController, name=GlobalTopicCount><>Value)
+# TYPE kafka_controller_kafkacontroller_globaltopiccount gauge
+kafka_controller_kafkacontroller_globaltopiccount 2.0
+# HELP kafka_server_brokertopicmetrics_failedproducerequests_total Attribute exposed for management (kafka.server<type=BrokerTopicMetrics, name=FailedProduceRequestsPerSec><>Count)
+# TYPE kafka_server_brokertopicmetrics_failedproducerequests_total counter
+kafka_server_brokertopicmetrics_failedproducerequests_total 0.0
+# HELP kafka_server_delayedoperationpurgatory_purgatorysize_delayedoperation_heartbeat Attribute exposed for management (kafka.server<type=DelayedOperationPurgatory, name=PurgatorySize, delayedOperation=Heartbeat><>Value)
+# TYPE kafka_server_delayedoperationpurgatory_purgatorysize_delayedoperation_heartbeat gauge
+kafka_server_delayedoperationpurgatory_purgatorysize_delayedoperation_heartbeat 0.0
+# HELP kafka_controller_controllerchannelmanager_requestrateandqueuetimems_broker_id_0 Attribute exposed for management (kafka.controller<type=ControllerChannelManager, name=RequestRateAndQueueTimeMs, broker-id=0><>Count)
+# TYPE kafka_controller_controllerchannelmanager_requestrateandqueuetimems_broker_id_0 gauge
+kafka_controller_controllerchannelmanager_requestrateandqueuetimems_broker_id_0 3.0
+# HELP kafka_server_brokertopicmetrics_failedfetchrequests_total Attribute exposed for management (kafka.server<type=BrokerTopicMetrics, name=FailedFetchRequestsPerSec><>Count)
+# TYPE kafka_server_brokertopicmetrics_failedfetchrequests_total counter
+kafka_server_brokertopicmetrics_failedfetchrequests_total 0.0
+# HELP kafka_server_fetchsessioncache_numincrementalfetchpartitionscached Attribute exposed for management (kafka.server<type=FetchSessionCache, name=NumIncrementalFetchPartitionsCached><>Value)
+# TYPE kafka_server_fetchsessioncache_numincrementalfetchpartitionscached gauge
+kafka_server_fetchsessioncache_numincrementalfetchpartitionscached 0.0
+# HELP kafka_server_sessionexpirelistener_zookeepersaslauthentications_total Attribute exposed for management (kafka.server<type=SessionExpireListener, name=ZooKeeperSaslAuthenticationsPerSec><>Count)
+# TYPE kafka_server_sessionexpirelistener_zookeepersaslauthentications_total counter
+kafka_server_sessionexpirelistener_zookeepersaslauthentications_total 0.0
+# HELP kafka_server_zookeeperclientmetrics_zookeeperrequestlatencyms Attribute exposed for management (kafka.server<type=ZooKeeperClientMetrics, name=ZooKeeperRequestLatencyMs><>Count)
+# TYPE kafka_server_zookeeperclientmetrics_zookeeperrequestlatencyms gauge
+kafka_server_zookeeperclientmetrics_zookeeperrequestlatencyms 159.0
+# HELP kafka_network_requestmetrics_requestbytes Attribute exposed for management (kafka.network<type=RequestMetrics, name=RequestBytes, request=DescribeLogDirs><>Count)
+# TYPE kafka_network_requestmetrics_requestbytes gauge
+kafka_network_requestmetrics_requestbytes{request="DescribeLogDirs",} 0.0
+kafka_network_requestmetrics_requestbytes{request="ApiVersions",} 0.0
+kafka_network_requestmetrics_requestbytes{request="AddOffsetsToTxn",} 0.0
+kafka_network_requestmetrics_requestbytes{request="OffsetForLeaderEpoch",} 0.0
+kafka_network_requestmetrics_requestbytes{request="OffsetFetch",} 0.0
+kafka_network_requestmetrics_requestbytes{request="ListGroups",} 0.0
+kafka_network_requestmetrics_requestbytes{request="DeleteTopics",} 0.0
+kafka_network_requestmetrics_requestbytes{request="FetchFollower",} 0.0
+kafka_network_requestmetrics_requestbytes{request="DeleteGroups",} 0.0
+kafka_network_requestmetrics_requestbytes{request="FetchConsumer",} 0.0
+kafka_network_requestmetrics_requestbytes{request="AddPartitionsToTxn",} 0.0
+kafka_network_requestmetrics_requestbytes{request="Fetch",} 0.0
+kafka_network_requestmetrics_requestbytes{request="FindCoordinator",} 0.0
+kafka_network_requestmetrics_requestbytes{request="SyncGroup",} 0.0
+kafka_network_requestmetrics_requestbytes{request="Metadata",} 0.0
+kafka_network_requestmetrics_requestbytes{request="CreateTopics",} 0.0
+kafka_network_requestmetrics_requestbytes{request="JoinGroup",} 0.0
+kafka_network_requestmetrics_requestbytes{request="LeaveGroup",} 0.0
+kafka_network_requestmetrics_requestbytes{request="SaslHandshake",} 0.0
+kafka_network_requestmetrics_requestbytes{request="SaslAuthenticate",} 0.0
+kafka_network_requestmetrics_requestbytes{request="CreateDelegationToken",} 0.0
+kafka_network_requestmetrics_requestbytes{request="ExpireDelegationToken",} 0.0
+kafka_network_requestmetrics_requestbytes{request="EndTxn",} 0.0
+kafka_network_requestmetrics_requestbytes{request="DescribeConfigs",} 0.0
+kafka_network_requestmetrics_requestbytes{request="WriteTxnMarkers",} 0.0
+kafka_network_requestmetrics_requestbytes{request="DescribeAcls",} 0.0
+kafka_network_requestmetrics_requestbytes{request="CreatePartitions",} 0.0
+kafka_network_requestmetrics_requestbytes{request="CreateAcls",} 0.0
+kafka_network_requestmetrics_requestbytes{request="AlterConfigs",} 0.0
+kafka_network_requestmetrics_requestbytes{request="DescribeGroups",} 0.0
+kafka_network_requestmetrics_requestbytes{request="LeaderAndIsr",} 1.0
+kafka_network_requestmetrics_requestbytes{request="InitProducerId",} 0.0
+kafka_network_requestmetrics_requestbytes{request="OffsetCommit",} 0.0
+kafka_network_requestmetrics_requestbytes{request="Produce",} 0.0
+kafka_network_requestmetrics_requestbytes{request="ControlledShutdown",} 0.0
+kafka_network_requestmetrics_requestbytes{request="TxnOffsetCommit",} 0.0
+kafka_network_requestmetrics_requestbytes{request="DeleteRecords",} 0.0
+kafka_network_requestmetrics_requestbytes{request="StopReplica",} 0.0
+kafka_network_requestmetrics_requestbytes{request="UpdateMetadata",} 2.0
+kafka_network_requestmetrics_requestbytes{request="DeleteAcls",} 0.0
+kafka_network_requestmetrics_requestbytes{request="ListOffsets",} 0.0
+kafka_network_requestmetrics_requestbytes{request="Heartbeat",} 0.0
+kafka_network_requestmetrics_requestbytes{request="RenewDelegationToken",} 0.0
+kafka_network_requestmetrics_requestbytes{request="AlterReplicaLogDirs",} 0.0
+kafka_network_requestmetrics_requestbytes{request="DescribeDelegationToken",} 0.0
+# HELP kafka_network_requestmetrics_temporarymemorybytes Attribute exposed for management (kafka.network<type=RequestMetrics, name=TemporaryMemoryBytes, request=Fetch><>Count)
+# TYPE kafka_network_requestmetrics_temporarymemorybytes gauge
+kafka_network_requestmetrics_temporarymemorybytes{request="Fetch",} 0.0
+kafka_network_requestmetrics_temporarymemorybytes{request="Produce",} 0.0
+# HELP kafka_server_delayedoperationpurgatory_numdelayedoperations_delayedoperation_fetch Attribute exposed for management (kafka.server<type=DelayedOperationPurgatory, name=NumDelayedOperations, delayedOperation=Fetch><>Value)
+# TYPE kafka_server_delayedoperationpurgatory_numdelayedoperations_delayedoperation_fetch gauge
+kafka_server_delayedoperationpurgatory_numdelayedoperations_delayedoperation_fetch 0.0
+# HELP kafka_controller_controllerstats_controllershutdownrateandtimems Attribute exposed for management (kafka.controller<type=ControllerStats, name=ControllerShutdownRateAndTimeMs><>Count)
+# TYPE kafka_controller_controllerstats_controllershutdownrateandtimems gauge
+kafka_controller_controllerstats_controllershutdownrateandtimems 0.0
+# HELP kafka_controller_controllerstats_leaderandisrresponsereceivedrateandtimems Attribute exposed for management (kafka.controller<type=ControllerStats, name=LeaderAndIsrResponseReceivedRateAndTimeMs><>Count)
+# TYPE kafka_controller_controllerstats_leaderandisrresponsereceivedrateandtimems gauge
+kafka_controller_controllerstats_leaderandisrresponsereceivedrateandtimems 1.0
+# HELP kafka_log_logendoffset Attribute exposed for management (kafka.log<type=Log, name=LogEndOffset, topic=__consumer_offsets, partition=12><>Value)
+# TYPE kafka_log_logendoffset gauge
+kafka_log_logendoffset{partition="12",topic="__consumer_offsets",} 0.0
+kafka_log_logendoffset{partition="5",topic="__consumer_offsets",} 0.0
+kafka_log_logendoffset{partition="32",topic="__consumer_offsets",} 0.0
+kafka_log_logendoffset{partition="46",topic="__consumer_offsets",} 0.0
+kafka_log_logendoffset{partition="17",topic="__consumer_offsets",} 0.0
+kafka_log_logendoffset{partition="40",topic="__consumer_offsets",} 0.0
+kafka_log_logendoffset{partition="38",topic="__consumer_offsets",} 0.0
+kafka_log_logendoffset{partition="33",topic="__consumer_offsets",} 0.0
+kafka_log_logendoffset{partition="47",topic="__consumer_offsets",} 0.0
+kafka_log_logendoffset{partition="37",topic="__consumer_offsets",} 0.0
+kafka_log_logendoffset{partition="6",topic="__consumer_offsets",} 0.0
+kafka_log_logendoffset{partition="18",topic="__consumer_offsets",} 0.0
+kafka_log_logendoffset{partition="24",topic="__consumer_offsets",} 0.0
+kafka_log_logendoffset{partition="44",topic="__consumer_offsets",} 0.0
+kafka_log_logendoffset{partition="1",topic="__consumer_offsets",} 0.0
+kafka_log_logendoffset{partition="26",topic="__consumer_offsets",} 0.0
+kafka_log_logendoffset{partition="19",topic="__consumer_offsets",} 0.0
+kafka_log_logendoffset{partition="9",topic="__consumer_offsets",} 0.0
+kafka_log_logendoffset{partition="13",topic="__consumer_offsets",} 0.0
+kafka_log_logendoffset{partition="31",topic="__consumer_offsets",} 0.0
+kafka_log_logendoffset{partition="10",topic="__consumer_offsets",} 0.0
+kafka_log_logendoffset{partition="11",topic="__consumer_offsets",} 0.0
+kafka_log_logendoffset{partition="45",topic="__consumer_offsets",} 0.0
+kafka_log_logendoffset{partition="25",topic="__consumer_offsets",} 0.0
+kafka_log_logendoffset{partition="39",topic="__consumer_offsets",} 0.0
+kafka_log_logendoffset{partition="30",topic="__consumer_offsets",} 0.0
+kafka_log_logendoffset{partition="0",topic="__consumer_offsets",} 0.0
+kafka_log_logendoffset{partition="22",topic="__consumer_offsets",} 0.0
+kafka_log_logendoffset{partition="48",topic="__consumer_offsets",} 0.0
+kafka_log_logendoffset{partition="28",topic="__consumer_offsets",} 0.0
+kafka_log_logendoffset{partition="14",topic="__consumer_offsets",} 0.0
+kafka_log_logendoffset{partition="8",topic="__consumer_offsets",} 0.0
+kafka_log_logendoffset{partition="2",topic="__consumer_offsets",} 0.0
+kafka_log_logendoffset{partition="43",topic="__consumer_offsets",} 0.0
+kafka_log_logendoffset{partition="23",topic="__consumer_offsets",} 0.0
+kafka_log_logendoffset{partition="42",topic="__consumer_offsets",} 0.0
+kafka_log_logendoffset{partition="27",topic="__consumer_offsets",} 0.0
+kafka_log_logendoffset{partition="7",topic="__consumer_offsets",} 0.0
+kafka_log_logendoffset{partition="34",topic="__consumer_offsets",} 0.0
+kafka_log_logendoffset{partition="3",topic="__consumer_offsets",} 0.0
+kafka_log_logendoffset{partition="20",topic="__consumer_offsets",} 0.0
+kafka_log_logendoffset{partition="29",topic="__consumer_offsets",} 0.0
+kafka_log_logendoffset{partition="16",topic="__consumer_offsets",} 5.0
+kafka_log_logendoffset{partition="21",topic="__consumer_offsets",} 0.0
+kafka_log_logendoffset{partition="35",topic="__consumer_offsets",} 0.0
+kafka_log_logendoffset{partition="4",topic="__consumer_offsets",} 0.0
+kafka_log_logendoffset{partition="49",topic="__consumer_offsets",} 0.0
+kafka_log_logendoffset{partition="0",topic="test",} 7.0
+kafka_log_logendoffset{partition="41",topic="__consumer_offsets",} 0.0
+kafka_log_logendoffset{partition="15",topic="__consumer_offsets",} 0.0
+kafka_log_logendoffset{partition="36",topic="__consumer_offsets",} 0.0
+# HELP kafka_server_replicaalterlogdirsmanager_minfetchrate Attribute exposed for management (kafka.server<type=ReplicaAlterLogDirsManager, name=MinFetchRate, clientId=ReplicaAlterLogDirs><>Value)
+# TYPE kafka_server_replicaalterlogdirsmanager_minfetchrate gauge
+kafka_server_replicaalterlogdirsmanager_minfetchrate{clientId="ReplicaAlterLogDirs",} 0.0
+# HELP kafka_cluster_partition_laststableoffsetlag Attribute exposed for management (kafka.cluster<type=Partition, name=LastStableOffsetLag, topic=__consumer_offsets, partition=4><>Value)
+# TYPE kafka_cluster_partition_laststableoffsetlag gauge
+kafka_cluster_partition_laststableoffsetlag{partition="4",topic="__consumer_offsets",} 0.0
+kafka_cluster_partition_laststableoffsetlag{partition="3",topic="__consumer_offsets",} 0.0
+kafka_cluster_partition_laststableoffsetlag{partition="40",topic="__consumer_offsets",} 0.0
+kafka_cluster_partition_laststableoffsetlag{partition="14",topic="__consumer_offsets",} 0.0
+kafka_cluster_partition_laststableoffsetlag{partition="15",topic="__consumer_offsets",} 0.0
+kafka_cluster_partition_laststableoffsetlag{partition="39",topic="__consumer_offsets",} 0.0
+kafka_cluster_partition_laststableoffsetlag{partition="2",topic="__consumer_offsets",} 0.0
+kafka_cluster_partition_laststableoffsetlag{partition="38",topic="__consumer_offsets",} 0.0
+kafka_cluster_partition_laststableoffsetlag{partition="1",topic="__consumer_offsets",} 0.0
+kafka_cluster_partition_laststableoffsetlag{partition="33",topic="__consumer_offsets",} 0.0
+kafka_cluster_partition_laststableoffsetlag{partition="16",topic="__consumer_offsets",} 0.0
+kafka_cluster_partition_laststableoffsetlag{partition="11",topic="__consumer_offsets",} 0.0
+kafka_cluster_partition_laststableoffsetlag{partition="6",topic="__consumer_offsets",} 0.0
+kafka_cluster_partition_laststableoffsetlag{partition="42",topic="__consumer_offsets",} 0.0
+kafka_cluster_partition_laststableoffsetlag{partition="13",topic="__consumer_offsets",} 0.0
+kafka_cluster_partition_laststableoffsetlag{partition="36",topic="__consumer_offsets",} 0.0
+kafka_cluster_partition_laststableoffsetlag{partition="35",topic="__consumer_offsets",} 0.0
+kafka_cluster_partition_laststableoffsetlag{partition="18",topic="__consumer_offsets",} 0.0
+kafka_cluster_partition_laststableoffsetlag{partition="19",topic="__consumer_offsets",} 0.0
+kafka_cluster_partition_laststableoffsetlag{partition="46",topic="__consumer_offsets",} 0.0
+kafka_cluster_partition_laststableoffsetlag{partition="0",topic="test",} 0.0
+kafka_cluster_partition_laststableoffsetlag{partition="31",topic="__consumer_offsets",} 0.0
+kafka_cluster_partition_laststableoffsetlag{partition="9",topic="__consumer_offsets",} 0.0
+kafka_cluster_partition_laststableoffsetlag{partition="45",topic="__consumer_offsets",} 0.0
+kafka_cluster_partition_laststableoffsetlag{partition="10",topic="__consumer_offsets",} 0.0
+kafka_cluster_partition_laststableoffsetlag{partition="32",topic="__consumer_offsets",} 0.0
+kafka_cluster_partition_laststableoffsetlag{partition="37",topic="__consumer_offsets",} 0.0
+kafka_cluster_partition_laststableoffsetlag{partition="0",topic="__consumer_offsets",} 0.0
+kafka_cluster_partition_laststableoffsetlag{partition="28",topic="__consumer_offsets",} 0.0
+kafka_cluster_partition_laststableoffsetlag{partition="5",topic="__consumer_offsets",} 0.0
+kafka_cluster_partition_laststableoffsetlag{partition="23",topic="__consumer_offsets",} 0.0
+kafka_cluster_partition_laststableoffsetlag{partition="41",topic="__consumer_offsets",} 0.0
+kafka_cluster_partition_laststableoffsetlag{partition="25",topic="__consumer_offsets",} 0.0
+kafka_cluster_partition_laststableoffsetlag{partition="26",topic="__consumer_offsets",} 0.0
+kafka_cluster_partition_laststableoffsetlag{partition="49",topic="__consumer_offsets",} 0.0
+kafka_cluster_partition_laststableoffsetlag{partition="22",topic="__consumer_offsets",} 0.0
+kafka_cluster_partition_laststableoffsetlag{partition="27",topic="__consumer_offsets",} 0.0
+kafka_cluster_partition_laststableoffsetlag{partition="47",topic="__consumer_offsets",} 0.0
+kafka_cluster_partition_laststableoffsetlag{partition="24",topic="__consumer_offsets",} 0.0
+kafka_cluster_partition_laststableoffsetlag{partition="29",topic="__consumer_offsets",} 0.0
+kafka_cluster_partition_laststableoffsetlag{partition="30",topic="__consumer_offsets",} 0.0
+kafka_cluster_partition_laststableoffsetlag{partition="20",topic="__consumer_offsets",} 0.0
+kafka_cluster_partition_laststableoffsetlag{partition="8",topic="__consumer_offsets",} 0.0
+kafka_cluster_partition_laststableoffsetlag{partition="7",topic="__consumer_offsets",} 0.0
+kafka_cluster_partition_laststableoffsetlag{partition="44",topic="__consumer_offsets",} 0.0
+kafka_cluster_partition_laststableoffsetlag{partition="21",topic="__consumer_offsets",} 0.0
+kafka_cluster_partition_laststableoffsetlag{partition="43",topic="__consumer_offsets",} 0.0
+kafka_cluster_partition_laststableoffsetlag{partition="17",topic="__consumer_offsets",} 0.0
+kafka_cluster_partition_laststableoffsetlag{partition="48",topic="__consumer_offsets",} 0.0
+kafka_cluster_partition_laststableoffsetlag{partition="34",topic="__consumer_offsets",} 0.0
+kafka_cluster_partition_laststableoffsetlag{partition="12",topic="__consumer_offsets",} 0.0
+# HELP kafka_log_numlogsegments Attribute exposed for management (kafka.log<type=Log, name=NumLogSegments, topic=__consumer_offsets, partition=26><>Value)
+# TYPE kafka_log_numlogsegments gauge
+kafka_log_numlogsegments{partition="26",topic="__consumer_offsets",} 1.0
+kafka_log_numlogsegments{partition="48",topic="__consumer_offsets",} 1.0
+kafka_log_numlogsegments{partition="21",topic="__consumer_offsets",} 1.0
+kafka_log_numlogsegments{partition="9",topic="__consumer_offsets",} 1.0
+kafka_log_numlogsegments{partition="19",topic="__consumer_offsets",} 1.0
+kafka_log_numlogsegments{partition="34",topic="__consumer_offsets",} 1.0
+kafka_log_numlogsegments{partition="27",topic="__consumer_offsets",} 1.0
+kafka_log_numlogsegments{partition="13",topic="__consumer_offsets",} 1.0
+kafka_log_numlogsegments{partition="47",topic="__consumer_offsets",} 1.0
+kafka_log_numlogsegments{partition="33",topic="__consumer_offsets",} 1.0
+kafka_log_numlogsegments{partition="42",topic="__consumer_offsets",} 1.0
+kafka_log_numlogsegments{partition="18",topic="__consumer_offsets",} 1.0
+kafka_log_numlogsegments{partition="4",topic="__consumer_offsets",} 1.0
+kafka_log_numlogsegments{partition="12",topic="__consumer_offsets",} 1.0
+kafka_log_numlogsegments{partition="2",topic="__consumer_offsets",} 1.0
+kafka_log_numlogsegments{partition="38",topic="__consumer_offsets",} 1.0
+kafka_log_numlogsegments{partition="43",topic="__consumer_offsets",} 1.0
+kafka_log_numlogsegments{partition="46",topic="__consumer_offsets",} 1.0
+kafka_log_numlogsegments{partition="25",topic="__consumer_offsets",} 1.0
+kafka_log_numlogsegments{partition="3",topic="__consumer_offsets",} 1.0
+kafka_log_numlogsegments{partition="30",topic="__consumer_offsets",} 1.0
+kafka_log_numlogsegments{partition="44",topic="__consumer_offsets",} 1.0
+kafka_log_numlogsegments{partition="45",topic="__consumer_offsets",} 1.0
+kafka_log_numlogsegments{partition="39",topic="__consumer_offsets",} 1.0
+kafka_log_numlogsegments{partition="11",topic="__consumer_offsets",} 1.0
+kafka_log_numlogsegments{partition="0",topic="__consumer_offsets",} 1.0
+kafka_log_numlogsegments{partition="24",topic="__consumer_offsets",} 1.0
+kafka_log_numlogsegments{partition="0",topic="test",} 1.0
+kafka_log_numlogsegments{partition="10",topic="__consumer_offsets",} 1.0
+kafka_log_numlogsegments{partition="31",topic="__consumer_offsets",} 1.0
+kafka_log_numlogsegments{partition="16",topic="__consumer_offsets",} 1.0
+kafka_log_numlogsegments{partition="6",topic="__consumer_offsets",} 1.0
+kafka_log_numlogsegments{partition="37",topic="__consumer_offsets",} 1.0
+kafka_log_numlogsegments{partition="17",topic="__consumer_offsets",} 1.0
+kafka_log_numlogsegments{partition="5",topic="__consumer_offsets",} 1.0
+kafka_log_numlogsegments{partition="32",topic="__consumer_offsets",} 1.0
+kafka_log_numlogsegments{partition="23",topic="__consumer_offsets",} 1.0
+kafka_log_numlogsegments{partition="1",topic="__consumer_offsets",} 1.0
+kafka_log_numlogsegments{partition="14",topic="__consumer_offsets",} 1.0
+kafka_log_numlogsegments{partition="36",topic="__consumer_offsets",} 1.0
+kafka_log_numlogsegments{partition="22",topic="__consumer_offsets",} 1.0
+kafka_log_numlogsegments{partition="28",topic="__consumer_offsets",} 1.0
+kafka_log_numlogsegments{partition="49",topic="__consumer_offsets",} 1.0
+kafka_log_numlogsegments{partition="15",topic="__consumer_offsets",} 1.0
+kafka_log_numlogsegments{partition="40",topic="__consumer_offsets",} 1.0
+kafka_log_numlogsegments{partition="35",topic="__consumer_offsets",} 1.0
+kafka_log_numlogsegments{partition="29",topic="__consumer_offsets",} 1.0
+kafka_log_numlogsegments{partition="7",topic="__consumer_offsets",} 1.0
+kafka_log_numlogsegments{partition="8",topic="__consumer_offsets",} 1.0
+kafka_log_numlogsegments{partition="41",topic="__consumer_offsets",} 1.0
+kafka_log_numlogsegments{partition="20",topic="__consumer_offsets",} 1.0
+# HELP kafka_server_brokertopicmetrics_totalproducerequests_total Attribute exposed for management (kafka.server<type=BrokerTopicMetrics, name=TotalProduceRequestsPerSec><>Count)
+# TYPE kafka_server_brokertopicmetrics_totalproducerequests_total counter
+kafka_server_brokertopicmetrics_totalproducerequests_total 0.0
+# HELP kafka_server_replicamanager_underreplicatedpartitions Attribute exposed for management (kafka.server<type=ReplicaManager, name=UnderReplicatedPartitions><>Value)
+# TYPE kafka_server_replicamanager_underreplicatedpartitions gauge
+kafka_server_replicamanager_underreplicatedpartitions 0.0
+# HELP kafka_network_requestmetrics_localtimems Attribute exposed for management (kafka.network<type=RequestMetrics, name=LocalTimeMs, request=ControlledShutdown><>Count)
+# TYPE kafka_network_requestmetrics_localtimems gauge
+kafka_network_requestmetrics_localtimems{request="ControlledShutdown",} 0.0
+kafka_network_requestmetrics_localtimems{request="DeleteTopics",} 0.0
+kafka_network_requestmetrics_localtimems{request="ExpireDelegationToken",} 0.0
+kafka_network_requestmetrics_localtimems{request="CreateTopics",} 0.0
+kafka_network_requestmetrics_localtimems{request="AddPartitionsToTxn",} 0.0
+kafka_network_requestmetrics_localtimems{request="FindCoordinator",} 0.0
+kafka_network_requestmetrics_localtimems{request="FetchFollower",} 0.0
+kafka_network_requestmetrics_localtimems{request="CreateAcls",} 0.0
+kafka_network_requestmetrics_localtimems{request="RenewDelegationToken",} 0.0
+kafka_network_requestmetrics_localtimems{request="FetchConsumer",} 0.0
+kafka_network_requestmetrics_localtimems{request="CreatePartitions",} 0.0
+kafka_network_requestmetrics_localtimems{request="OffsetForLeaderEpoch",} 0.0
+kafka_network_requestmetrics_localtimems{request="ListOffsets",} 0.0
+kafka_network_requestmetrics_localtimems{request="StopReplica",} 0.0
+kafka_network_requestmetrics_localtimems{request="SaslHandshake",} 0.0
+kafka_network_requestmetrics_localtimems{request="LeaveGroup",} 0.0
+kafka_network_requestmetrics_localtimems{request="SaslAuthenticate",} 0.0
+kafka_network_requestmetrics_localtimems{request="CreateDelegationToken",} 0.0
+kafka_network_requestmetrics_localtimems{request="WriteTxnMarkers",} 0.0
+kafka_network_requestmetrics_localtimems{request="JoinGroup",} 0.0
+kafka_network_requestmetrics_localtimems{request="OffsetFetch",} 0.0
+kafka_network_requestmetrics_localtimems{request="UpdateMetadata",} 2.0
+kafka_network_requestmetrics_localtimems{request="ListGroups",} 0.0
+kafka_network_requestmetrics_localtimems{request="EndTxn",} 0.0
+kafka_network_requestmetrics_localtimems{request="AlterConfigs",} 0.0
+kafka_network_requestmetrics_localtimems{request="ApiVersions",} 0.0
+kafka_network_requestmetrics_localtimems{request="SyncGroup",} 0.0
+kafka_network_requestmetrics_localtimems{request="DescribeDelegationToken",} 0.0
+kafka_network_requestmetrics_localtimems{request="TxnOffsetCommit",} 0.0
+kafka_network_requestmetrics_localtimems{request="DescribeGroups",} 0.0
+kafka_network_requestmetrics_localtimems{request="InitProducerId",} 0.0
+kafka_network_requestmetrics_localtimems{request="DescribeConfigs",} 0.0
+kafka_network_requestmetrics_localtimems{request="LeaderAndIsr",} 1.0
+kafka_network_requestmetrics_localtimems{request="OffsetCommit",} 0.0
+kafka_network_requestmetrics_localtimems{request="Metadata",} 0.0
+kafka_network_requestmetrics_localtimems{request="Produce",} 0.0
+kafka_network_requestmetrics_localtimems{request="DescribeAcls",} 0.0
+kafka_network_requestmetrics_localtimems{request="DescribeLogDirs",} 0.0
+kafka_network_requestmetrics_localtimems{request="DeleteRecords",} 0.0
+kafka_network_requestmetrics_localtimems{request="AlterReplicaLogDirs",} 0.0
+kafka_network_requestmetrics_localtimems{request="AddOffsetsToTxn",} 0.0
+kafka_network_requestmetrics_localtimems{request="Heartbeat",} 0.0
+kafka_network_requestmetrics_localtimems{request="DeleteGroups",} 0.0
+kafka_network_requestmetrics_localtimems{request="Fetch",} 0.0
+kafka_network_requestmetrics_localtimems{request="DeleteAcls",} 0.0
+# HELP kafka_controller_controllereventmanager_eventqueuetimems Attribute exposed for management (kafka.controller<type=ControllerEventManager, name=EventQueueTimeMs><>Count)
+# TYPE kafka_controller_controllereventmanager_eventqueuetimems gauge
+kafka_controller_controllereventmanager_eventqueuetimems 278.0
+# HELP kafka_network_requestmetrics_responsequeuetimems Attribute exposed for management (kafka.network<type=RequestMetrics, name=ResponseQueueTimeMs, request=DeleteRecords><>Count)
+# TYPE kafka_network_requestmetrics_responsequeuetimems gauge
+kafka_network_requestmetrics_responsequeuetimems{request="DeleteRecords",} 0.0
+kafka_network_requestmetrics_responsequeuetimems{request="AlterReplicaLogDirs",} 0.0
+kafka_network_requestmetrics_responsequeuetimems{request="CreateDelegationToken",} 0.0
+kafka_network_requestmetrics_responsequeuetimems{request="OffsetFetch",} 0.0
+kafka_network_requestmetrics_responsequeuetimems{request="Heartbeat",} 0.0
+kafka_network_requestmetrics_responsequeuetimems{request="DeleteTopics",} 0.0
+kafka_network_requestmetrics_responsequeuetimems{request="ApiVersions",} 0.0
+kafka_network_requestmetrics_responsequeuetimems{request="EndTxn",} 0.0
+kafka_network_requestmetrics_responsequeuetimems{request="DescribeConfigs",} 0.0
+kafka_network_requestmetrics_responsequeuetimems{request="LeaveGroup",} 0.0
+kafka_network_requestmetrics_responsequeuetimems{request="SaslHandshake",} 0.0
+kafka_network_requestmetrics_responsequeuetimems{request="DeleteAcls",} 0.0
+kafka_network_requestmetrics_responsequeuetimems{request="SaslAuthenticate",} 0.0
+kafka_network_requestmetrics_responsequeuetimems{request="TxnOffsetCommit",} 0.0
+kafka_network_requestmetrics_responsequeuetimems{request="AddOffsetsToTxn",} 0.0
+kafka_network_requestmetrics_responsequeuetimems{request="CreateTopics",} 0.0
+kafka_network_requestmetrics_responsequeuetimems{request="CreateAcls",} 0.0
+kafka_network_requestmetrics_responsequeuetimems{request="InitProducerId",} 0.0
+kafka_network_requestmetrics_responsequeuetimems{request="DeleteGroups",} 0.0
+kafka_network_requestmetrics_responsequeuetimems{request="AlterConfigs",} 0.0
+kafka_network_requestmetrics_responsequeuetimems{request="DescribeLogDirs",} 0.0
+kafka_network_requestmetrics_responsequeuetimems{request="DescribeAcls",} 0.0
+kafka_network_requestmetrics_responsequeuetimems{request="CreatePartitions",} 0.0
+kafka_network_requestmetrics_responsequeuetimems{request="Produce",} 0.0
+kafka_network_requestmetrics_responsequeuetimems{request="OffsetCommit",} 0.0
+kafka_network_requestmetrics_responsequeuetimems{request="SyncGroup",} 0.0
+kafka_network_requestmetrics_responsequeuetimems{request="LeaderAndIsr",} 1.0
+kafka_network_requestmetrics_responsequeuetimems{request="ControlledShutdown",} 0.0
+kafka_network_requestmetrics_responsequeuetimems{request="UpdateMetadata",} 2.0
+kafka_network_requestmetrics_responsequeuetimems{request="FindCoordinator",} 0.0
+kafka_network_requestmetrics_responsequeuetimems{request="Metadata",} 0.0
+kafka_network_requestmetrics_responsequeuetimems{request="RenewDelegationToken",} 0.0
+kafka_network_requestmetrics_responsequeuetimems{request="OffsetForLeaderEpoch",} 0.0
+kafka_network_requestmetrics_responsequeuetimems{request="ListOffsets",} 0.0
+kafka_network_requestmetrics_responsequeuetimems{request="ExpireDelegationToken",} 0.0
+kafka_network_requestmetrics_responsequeuetimems{request="WriteTxnMarkers",} 0.0
+kafka_network_requestmetrics_responsequeuetimems{request="FetchFollower",} 0.0
+kafka_network_requestmetrics_responsequeuetimems{request="ListGroups",} 0.0
+kafka_network_requestmetrics_responsequeuetimems{request="StopReplica",} 0.0
+kafka_network_requestmetrics_responsequeuetimems{request="JoinGroup",} 0.0
+kafka_network_requestmetrics_responsequeuetimems{request="FetchConsumer",} 0.0
+kafka_network_requestmetrics_responsequeuetimems{request="AddPartitionsToTxn",} 0.0
+kafka_network_requestmetrics_responsequeuetimems{request="DescribeGroups",} 0.0
+kafka_network_requestmetrics_responsequeuetimems{request="DescribeDelegationToken",} 0.0
+kafka_network_requestmetrics_responsequeuetimems{request="Fetch",} 0.0
+# HELP kafka_network_socketserver_memorypoolused Attribute exposed for management (kafka.network<type=SocketServer, name=MemoryPoolUsed><>Value)
+# TYPE kafka_network_socketserver_memorypoolused gauge
+kafka_network_socketserver_memorypoolused 0.0
+# HELP kafka_controller_controllerchannelmanager_queuesize_broker_id_0 Attribute exposed for management (kafka.controller<type=ControllerChannelManager, name=QueueSize, broker-id=0><>Value)
+# TYPE kafka_controller_controllerchannelmanager_queuesize_broker_id_0 gauge
+kafka_controller_controllerchannelmanager_queuesize_broker_id_0 0.0
+# HELP kafka_cluster_partition_underminisr Attribute exposed for management (kafka.cluster<type=Partition, name=UnderMinIsr, topic=test, partition=0><>Value)
+# TYPE kafka_cluster_partition_underminisr gauge
+kafka_cluster_partition_underminisr{partition="0",topic="test",} 0.0
+kafka_cluster_partition_underminisr{partition="46",topic="__consumer_offsets",} 0.0
+kafka_cluster_partition_underminisr{partition="5",topic="__consumer_offsets",} 0.0
+kafka_cluster_partition_underminisr{partition="24",topic="__consumer_offsets",} 0.0
+kafka_cluster_partition_underminisr{partition="47",topic="__consumer_offsets",} 0.0
+kafka_cluster_partition_underminisr{partition="26",topic="__consumer_offsets",} 0.0
+kafka_cluster_partition_underminisr{partition="4",topic="__consumer_offsets",} 0.0
+kafka_cluster_partition_underminisr{partition="25",topic="__consumer_offsets",} 0.0
+kafka_cluster_partition_underminisr{partition="48",topic="__consumer_offsets",} 0.0
+kafka_cluster_partition_underminisr{partition="22",topic="__consumer_offsets",} 0.0
+kafka_cluster_partition_underminisr{partition="27",topic="__consumer_offsets",} 0.0
+kafka_cluster_partition_underminisr{partition="49",topic="__consumer_offsets",} 0.0
+kafka_cluster_partition_underminisr{partition="8",topic="__consumer_offsets",} 0.0
+kafka_cluster_partition_underminisr{partition="44",topic="__consumer_offsets",} 0.0
+kafka_cluster_partition_underminisr{partition="3",topic="__consumer_offsets",} 0.0
+kafka_cluster_partition_underminisr{partition="6",topic="__consumer_offsets",} 0.0
+kafka_cluster_partition_underminisr{partition="1",topic="__consumer_offsets",} 0.0
+kafka_cluster_partition_underminisr{partition="19",topic="__consumer_offsets",} 0.0
+kafka_cluster_partition_underminisr{partition="29",topic="__consumer_offsets",} 0.0
+kafka_cluster_partition_underminisr{partition="41",topic="__consumer_offsets",} 0.0
+kafka_cluster_partition_underminisr{partition="31",topic="__consumer_offsets",} 0.0
+kafka_cluster_partition_underminisr{partition="2",topic="__consumer_offsets",} 0.0
+kafka_cluster_partition_underminisr{partition="32",topic="__consumer_offsets",} 0.0
+kafka_cluster_partition_underminisr{partition="10",topic="__consumer_offsets",} 0.0
+kafka_cluster_partition_underminisr{partition="23",topic="__consumer_offsets",} 0.0
+kafka_cluster_partition_underminisr{partition="40",topic="__consumer_offsets",} 0.0
+kafka_cluster_partition_underminisr{partition="7",topic="__consumer_offsets",} 0.0
+kafka_cluster_partition_underminisr{partition="28",topic="__consumer_offsets",} 0.0
+kafka_cluster_partition_underminisr{partition="45",topic="__consumer_offsets",} 0.0
+kafka_cluster_partition_underminisr{partition="35",topic="__consumer_offsets",} 0.0
+kafka_cluster_partition_underminisr{partition="15",topic="__consumer_offsets",} 0.0
+kafka_cluster_partition_underminisr{partition="36",topic="__consumer_offsets",} 0.0
+kafka_cluster_partition_underminisr{partition="13",topic="__consumer_offsets",} 0.0
+kafka_cluster_partition_underminisr{partition="37",topic="__consumer_offsets",} 0.0
+kafka_cluster_partition_underminisr{partition="14",topic="__consumer_offsets",} 0.0
+kafka_cluster_partition_underminisr{partition="16",topic="__consumer_offsets",} 0.0
+kafka_cluster_partition_underminisr{partition="33",topic="__consumer_offsets",} 0.0
+kafka_cluster_partition_underminisr{partition="38",topic="__consumer_offsets",} 0.0
+kafka_cluster_partition_underminisr{partition="11",topic="__consumer_offsets",} 0.0
+kafka_cluster_partition_underminisr{partition="30",topic="__consumer_offsets",} 0.0
+kafka_cluster_partition_underminisr{partition="0",topic="__consumer_offsets",} 0.0
+kafka_cluster_partition_underminisr{partition="9",topic="__consumer_offsets",} 0.0
+kafka_cluster_partition_underminisr{partition="18",topic="__consumer_offsets",} 0.0
+kafka_cluster_partition_underminisr{partition="42",topic="__consumer_offsets",} 0.0
+kafka_cluster_partition_underminisr{partition="20",topic="__consumer_offsets",} 0.0
+kafka_cluster_partition_underminisr{partition="43",topic="__consumer_offsets",} 0.0
+kafka_cluster_partition_underminisr{partition="12",topic="__consumer_offsets",} 0.0
+kafka_cluster_partition_underminisr{partition="21",topic="__consumer_offsets",} 0.0
+kafka_cluster_partition_underminisr{partition="39",topic="__consumer_offsets",} 0.0
+kafka_cluster_partition_underminisr{partition="34",topic="__consumer_offsets",} 0.0
+kafka_cluster_partition_underminisr{partition="17",topic="__consumer_offsets",} 0.0
+# HELP kafka_network_requestmetrics_throttletimems Attribute exposed for management (kafka.network<type=RequestMetrics, name=ThrottleTimeMs, request=AddOffsetsToTxn><>Count)
+# TYPE kafka_network_requestmetrics_throttletimems gauge
+kafka_network_requestmetrics_throttletimems{request="AddOffsetsToTxn",} 0.0
+kafka_network_requestmetrics_throttletimems{request="ApiVersions",} 0.0
+kafka_network_requestmetrics_throttletimems{request="ControlledShutdown",} 0.0
+kafka_network_requestmetrics_throttletimems{request="DeleteAcls",} 0.0
+kafka_network_requestmetrics_throttletimems{request="EndTxn",} 0.0
+kafka_network_requestmetrics_throttletimems{request="WriteTxnMarkers",} 0.0
+kafka_network_requestmetrics_throttletimems{request="CreatePartitions",} 0.0
+kafka_network_requestmetrics_throttletimems{request="CreateDelegationToken",} 0.0
+kafka_network_requestmetrics_throttletimems{request="TxnOffsetCommit",} 0.0
+kafka_network_requestmetrics_throttletimems{request="ListGroups",} 0.0
+kafka_network_requestmetrics_throttletimems{request="FetchFollower",} 0.0
+kafka_network_requestmetrics_throttletimems{request="DeleteGroups",} 0.0
+kafka_network_requestmetrics_throttletimems{request="UpdateMetadata",} 2.0
+kafka_network_requestmetrics_throttletimems{request="Produce",} 0.0
+kafka_network_requestmetrics_throttletimems{request="DescribeAcls",} 0.0
+kafka_network_requestmetrics_throttletimems{request="JoinGroup",} 0.0
+kafka_network_requestmetrics_throttletimems{request="CreateAcls",} 0.0
+kafka_network_requestmetrics_throttletimems{request="LeaderAndIsr",} 1.0
+kafka_network_requestmetrics_throttletimems{request="AddPartitionsToTxn",} 0.0
+kafka_network_requestmetrics_throttletimems{request="DescribeGroups",} 0.0
+kafka_network_requestmetrics_throttletimems{request="SyncGroup",} 0.0
+kafka_network_requestmetrics_throttletimems{request="ListOffsets",} 0.0
+kafka_network_requestmetrics_throttletimems{request="DescribeLogDirs",} 0.0
+kafka_network_requestmetrics_throttletimems{request="CreateTopics",} 0.0
+kafka_network_requestmetrics_throttletimems{request="AlterReplicaLogDirs",} 0.0
+kafka_network_requestmetrics_throttletimems{request="Fetch",} 0.0
+kafka_network_requestmetrics_throttletimems{request="SaslHandshake",} 0.0
+kafka_network_requestmetrics_throttletimems{request="StopReplica",} 0.0
+kafka_network_requestmetrics_throttletimems{request="ExpireDelegationToken",} 0.0
+kafka_network_requestmetrics_throttletimems{request="DescribeDelegationToken",} 0.0
+kafka_network_requestmetrics_throttletimems{request="DeleteRecords",} 0.0
+kafka_network_requestmetrics_throttletimems{request="AlterConfigs",} 0.0
+kafka_network_requestmetrics_throttletimems{request="DeleteTopics",} 0.0
+kafka_network_requestmetrics_throttletimems{request="OffsetForLeaderEpoch",} 0.0
+kafka_network_requestmetrics_throttletimems{request="LeaveGroup",} 0.0
+kafka_network_requestmetrics_throttletimems{request="OffsetFetch",} 0.0
+kafka_network_requestmetrics_throttletimems{request="FetchConsumer",} 0.0
+kafka_network_requestmetrics_throttletimems{request="SaslAuthenticate",} 0.0
+kafka_network_requestmetrics_throttletimems{request="RenewDelegationToken",} 0.0
+kafka_network_requestmetrics_throttletimems{request="FindCoordinator",} 0.0
+kafka_network_requestmetrics_throttletimems{request="DescribeConfigs",} 0.0
+kafka_network_requestmetrics_throttletimems{request="OffsetCommit",} 0.0
+kafka_network_requestmetrics_throttletimems{request="Heartbeat",} 0.0
+kafka_network_requestmetrics_throttletimems{request="Metadata",} 0.0
+kafka_network_requestmetrics_throttletimems{request="InitProducerId",} 0.0
+# HELP kafka_log_logmanager_logdirectoryoffline_logdirectory_tmp_kafka_logs_value Attribute exposed for management (kafka.log<type=LogManager, name=LogDirectoryOffline, logDirectory="/tmp/kafka-logs"><>Value)
+# TYPE kafka_log_logmanager_logdirectoryoffline_logdirectory_tmp_kafka_logs_value counter
+kafka_log_logmanager_logdirectoryoffline_logdirectory_tmp_kafka_logs_value 0.0
+# HELP kafka_cluster_partition_underreplicated Attribute exposed for management (kafka.cluster<type=Partition, name=UnderReplicated, topic=__consumer_offsets, partition=8><>Value)
+# TYPE kafka_cluster_partition_underreplicated gauge
+kafka_cluster_partition_underreplicated{partition="8",topic="__consumer_offsets",} 0.0
+kafka_cluster_partition_underreplicated{partition="30",topic="__consumer_offsets",} 0.0
+kafka_cluster_partition_underreplicated{partition="31",topic="__consumer_offsets",} 0.0
+kafka_cluster_partition_underreplicated{partition="29",topic="__consumer_offsets",} 0.0
+kafka_cluster_partition_underreplicated{partition="9",topic="__consumer_offsets",} 0.0
+kafka_cluster_partition_underreplicated{partition="49",topic="__consumer_offsets",} 0.0
+kafka_cluster_partition_underreplicated{partition="33",topic="__consumer_offsets",} 0.0
+kafka_cluster_partition_underreplicated{partition="11",topic="__consumer_offsets",} 0.0
+kafka_cluster_partition_underreplicated{partition="5",topic="__consumer_offsets",} 0.0
+kafka_cluster_partition_underreplicated{partition="27",topic="__consumer_offsets",} 0.0
+kafka_cluster_partition_underreplicated{partition="7",topic="__consumer_offsets",} 0.0
+kafka_cluster_partition_underreplicated{partition="0",topic="test",} 0.0
+kafka_cluster_partition_underreplicated{partition="14",topic="__consumer_offsets",} 0.0
+kafka_cluster_partition_underreplicated{partition="36",topic="__consumer_offsets",} 0.0
+kafka_cluster_partition_underreplicated{partition="45",topic="__consumer_offsets",} 0.0
+kafka_cluster_partition_underreplicated{partition="2",topic="__consumer_offsets",} 0.0
+kafka_cluster_partition_underreplicated{partition="24",topic="__consumer_offsets",} 0.0
+kafka_cluster_partition_underreplicated{partition="23",topic="__consumer_offsets",} 0.0
+kafka_cluster_partition_underreplicated{partition="46",topic="__consumer_offsets",} 0.0
+kafka_cluster_partition_underreplicated{partition="28",topic="__consumer_offsets",} 0.0
+kafka_cluster_partition_underreplicated{partition="1",topic="__consumer_offsets",} 0.0
+kafka_cluster_partition_underreplicated{partition="37",topic="__consumer_offsets",} 0.0
+kafka_cluster_partition_underreplicated{partition="10",topic="__consumer_offsets",} 0.0
+kafka_cluster_partition_underreplicated{partition="15",topic="__consumer_offsets",} 0.0
+kafka_cluster_partition_underreplicated{partition="6",topic="__consumer_offsets",} 0.0
+kafka_cluster_partition_underreplicated{partition="32",topic="__consumer_offsets",} 0.0
+kafka_cluster_partition_underreplicated{partition="41",topic="__consumer_offsets",} 0.0
+kafka_cluster_partition_underreplicated{partition="19",topic="__consumer_offsets",} 0.0
+kafka_cluster_partition_underreplicated{partition="20",topic="__consumer_offsets",} 0.0
+kafka_cluster_partition_underreplicated{partition="42",topic="__consumer_offsets",} 0.0
+kafka_cluster_partition_underreplicated{partition="18",topic="__consumer_offsets",} 0.0
+kafka_cluster_partition_underreplicated{partition="40",topic="__consumer_offsets",} 0.0
+kafka_cluster_partition_underreplicated{partition="17",topic="__consumer_offsets",} 0.0
+kafka_cluster_partition_underreplicated{partition="44",topic="__consumer_offsets",} 0.0
+kafka_cluster_partition_underreplicated{partition="38",topic="__consumer_offsets",} 0.0
+kafka_cluster_partition_underreplicated{partition="16",topic="__consumer_offsets",} 0.0
+kafka_cluster_partition_underreplicated{partition="22",topic="__consumer_offsets",} 0.0
+kafka_cluster_partition_underreplicated{partition="0",topic="__consumer_offsets",} 0.0
+kafka_cluster_partition_underreplicated{partition="25",topic="__consumer_offsets",} 0.0
+kafka_cluster_partition_underreplicated{partition="47",topic="__consumer_offsets",} 0.0
+kafka_cluster_partition_underreplicated{partition="13",topic="__consumer_offsets",} 0.0
+kafka_cluster_partition_underreplicated{partition="4",topic="__consumer_offsets",} 0.0
+kafka_cluster_partition_underreplicated{partition="34",topic="__consumer_offsets",} 0.0
+kafka_cluster_partition_underreplicated{partition="35",topic="__consumer_offsets",} 0.0
+kafka_cluster_partition_underreplicated{partition="12",topic="__consumer_offsets",} 0.0
+kafka_cluster_partition_underreplicated{partition="3",topic="__consumer_offsets",} 0.0
+kafka_cluster_partition_underreplicated{partition="39",topic="__consumer_offsets",} 0.0
+kafka_cluster_partition_underreplicated{partition="21",topic="__consumer_offsets",} 0.0
+kafka_cluster_partition_underreplicated{partition="48",topic="__consumer_offsets",} 0.0
+kafka_cluster_partition_underreplicated{partition="43",topic="__consumer_offsets",} 0.0
+kafka_cluster_partition_underreplicated{partition="26",topic="__consumer_offsets",} 0.0
+# HELP kafka_server_brokertopicmetrics_replicationbytesout_total Attribute exposed for management (kafka.server<type=BrokerTopicMetrics, name=ReplicationBytesOutPerSec><>Count)
+# TYPE kafka_server_brokertopicmetrics_replicationbytesout_total counter
+kafka_server_brokertopicmetrics_replicationbytesout_total 0.0
+# HELP kafka_controller_controllerstats_autoleaderbalancerateandtimems Attribute exposed for management (kafka.controller<type=ControllerStats, name=AutoLeaderBalanceRateAndTimeMs><>Count)
+# TYPE kafka_controller_controllerstats_autoleaderbalancerateandtimems gauge
+kafka_controller_controllerstats_autoleaderbalancerateandtimems 273.0
+# HELP kafka_controller_controllerstats_partitionreassignmentrateandtimems Attribute exposed for management (kafka.controller<type=ControllerStats, name=PartitionReassignmentRateAndTimeMs><>Count)
+# TYPE kafka_controller_controllerstats_partitionreassignmentrateandtimems gauge
+kafka_controller_controllerstats_partitionreassignmentrateandtimems 1.0
+# HELP kafka_controller_controllerstats_isrchangerateandtimems Attribute exposed for management (kafka.controller<type=ControllerStats, name=IsrChangeRateAndTimeMs><>Count)
+# TYPE kafka_controller_controllerstats_isrchangerateandtimems gauge
+kafka_controller_controllerstats_isrchangerateandtimems 0.0
+# HELP kafka_log_logcleaner_max_buffer_utilization_percent_value Attribute exposed for management (kafka.log<type=LogCleaner, name=max-buffer-utilization-percent><>Value)
+# TYPE kafka_log_logcleaner_max_buffer_utilization_percent_value counter
+kafka_log_logcleaner_max_buffer_utilization_percent_value 0.0
+# HELP kafka_server_replicamanager_partitioncount Attribute exposed for management (kafka.server<type=ReplicaManager, name=PartitionCount><>Value)
+# TYPE kafka_server_replicamanager_partitioncount gauge
+kafka_server_replicamanager_partitioncount 51.0
+# HELP kafka_controller_kafkacontroller_controllerstate Attribute exposed for management (kafka.controller<type=KafkaController, name=ControllerState><>Value)
+# TYPE kafka_controller_kafkacontroller_controllerstate gauge
+kafka_controller_kafkacontroller_controllerstate 0.0
+# HELP kafka_log_logmanager_offlinelogdirectorycount_value Attribute exposed for management (kafka.log<type=LogManager, name=OfflineLogDirectoryCount><>Value)
+# TYPE kafka_log_logmanager_offlinelogdirectorycount_value counter
+kafka_log_logmanager_offlinelogdirectorycount_value 0.0
+# HELP kafka_network_requestmetrics_requests_total Attribute exposed for management (kafka.network<type=RequestMetrics, name=RequestsPerSec, request=UpdateMetadata, version=4><>Count)
+# TYPE kafka_network_requestmetrics_requests_total gauge
+kafka_network_requestmetrics_requests_total{request="UpdateMetadata, version=4",} 2.0
+kafka_network_requestmetrics_requests_total{request="LeaderAndIsr, version=1",} 1.0
+# HELP kafka_network_requestchannel_responsequeuesize Attribute exposed for management (kafka.network<type=RequestChannel, name=ResponseQueueSize><>Value)
+# TYPE kafka_network_requestchannel_responsequeuesize gauge
+kafka_network_requestchannel_responsequeuesize 0.0
+# HELP kafka_server_sessionexpirelistener_zookeepersyncconnects_total Attribute exposed for management (kafka.server<type=SessionExpireListener, name=ZooKeeperSyncConnectsPerSec><>Count)
+# TYPE kafka_server_sessionexpirelistener_zookeepersyncconnects_total counter
+kafka_server_sessionexpirelistener_zookeepersyncconnects_total 1.0
+# HELP kafka_controller_controllerstats_logdirchangerateandtimems Attribute exposed for management (kafka.controller<type=ControllerStats, name=LogDirChangeRateAndTimeMs><>Count)
+# TYPE kafka_controller_controllerstats_logdirchangerateandtimems gauge
+kafka_controller_controllerstats_logdirchangerateandtimems 0.0
+# HELP kafka_server_delayedoperationpurgatory_numdelayedoperations_delayedoperation_topic Attribute exposed for management (kafka.server<type=DelayedOperationPurgatory, name=NumDelayedOperations, delayedOperation=topic><>Value)
+# TYPE kafka_server_delayedoperationpurgatory_numdelayedoperations_delayedoperation_topic gauge
+kafka_server_delayedoperationpurgatory_numdelayedoperations_delayedoperation_topic 0.0
+# HELP kafka_server_brokertopicmetrics_replicationbytesin_total Attribute exposed for management (kafka.server<type=BrokerTopicMetrics, name=ReplicationBytesInPerSec><>Count)
+# TYPE kafka_server_brokertopicmetrics_replicationbytesin_total counter
+kafka_server_brokertopicmetrics_replicationbytesin_total 0.0
+# HELP kafka_controller_controllerstats_uncleanleaderelectionspersec Attribute exposed for management (kafka.controller<type=ControllerStats, name=UncleanLeaderElectionsPerSec><>Count)
+# TYPE kafka_controller_controllerstats_uncleanleaderelectionspersec gauge
+kafka_controller_controllerstats_uncleanleaderelectionspersec 0.0
+# HELP kafka_controller_controllerstats_manualleaderbalancerateandtimems Attribute exposed for management (kafka.controller<type=ControllerStats, name=ManualLeaderBalanceRateAndTimeMs><>Count)
+# TYPE kafka_controller_controllerstats_manualleaderbalancerateandtimems gauge
+kafka_controller_controllerstats_manualleaderbalancerateandtimems 1.0
+# HELP kafka_server_sessionexpirelistener_zookeeperauthfailures_total Attribute exposed for management (kafka.server<type=SessionExpireListener, name=ZooKeeperAuthFailuresPerSec><>Count)
+# TYPE kafka_server_sessionexpirelistener_zookeeperauthfailures_total counter
+kafka_server_sessionexpirelistener_zookeeperauthfailures_total 0.0
+# HELP kafka_server_sessionexpirelistener_zookeeperreadonlyconnects_total Attribute exposed for management (kafka.server<type=SessionExpireListener, name=ZooKeeperReadOnlyConnectsPerSec><>Count)
+# TYPE kafka_server_sessionexpirelistener_zookeeperreadonlyconnects_total counter
+kafka_server_sessionexpirelistener_zookeeperreadonlyconnects_total 0.0
+# HELP kafka_controller_controllerstats_controllerchangerateandtimems Attribute exposed for management (kafka.controller<type=ControllerStats, name=ControllerChangeRateAndTimeMs><>Count)
+# TYPE kafka_controller_controllerstats_controllerchangerateandtimems gauge
+kafka_controller_controllerstats_controllerchangerateandtimems 2.0
+# HELP kafka_controller_controllerstats_leaderelectionrateandtimems Attribute exposed for management (kafka.controller<type=ControllerStats, name=LeaderElectionRateAndTimeMs><>Count)
+# TYPE kafka_controller_controllerstats_leaderelectionrateandtimems gauge
+kafka_controller_controllerstats_leaderelectionrateandtimems 0.0
+# HELP kafka_log_size Attribute exposed for management (kafka.log<type=Log, name=Size, topic=__consumer_offsets, partition=20><>Value)
+# TYPE kafka_log_size gauge
+kafka_log_size{partition="20",topic="__consumer_offsets",} 0.0
+kafka_log_size{partition="9",topic="__consumer_offsets",} 0.0
+kafka_log_size{partition="47",topic="__consumer_offsets",} 0.0
+kafka_log_size{partition="26",topic="__consumer_offsets",} 0.0
+kafka_log_size{partition="39",topic="__consumer_offsets",} 0.0
+kafka_log_size{partition="41",topic="__consumer_offsets",} 0.0
+kafka_log_size{partition="21",topic="__consumer_offsets",} 0.0
+kafka_log_size{partition="25",topic="__consumer_offsets",} 0.0
+kafka_log_size{partition="12",topic="__consumer_offsets",} 0.0
+kafka_log_size{partition="46",topic="__consumer_offsets",} 0.0
+kafka_log_size{partition="19",topic="__consumer_offsets",} 0.0
+kafka_log_size{partition="42",topic="__consumer_offsets",} 0.0
+kafka_log_size{partition="17",topic="__consumer_offsets",} 0.0
+kafka_log_size{partition="22",topic="__consumer_offsets",} 0.0
+kafka_log_size{partition="24",topic="__consumer_offsets",} 0.0
+kafka_log_size{partition="5",topic="__consumer_offsets",} 0.0
+kafka_log_size{partition="11",topic="__consumer_offsets",} 0.0
+kafka_log_size{partition="2",topic="__consumer_offsets",} 0.0
+kafka_log_size{partition="18",topic="__consumer_offsets",} 0.0
+kafka_log_size{partition="43",topic="__consumer_offsets",} 0.0
+kafka_log_size{partition="3",topic="__consumer_offsets",} 0.0
+kafka_log_size{partition="38",topic="__consumer_offsets",} 0.0
+kafka_log_size{partition="0",topic="test",} 443.0
+kafka_log_size{partition="4",topic="__consumer_offsets",} 0.0
+kafka_log_size{partition="37",topic="__consumer_offsets",} 0.0
+kafka_log_size{partition="0",topic="__consumer_offsets",} 0.0
+kafka_log_size{partition="44",topic="__consumer_offsets",} 0.0
+kafka_log_size{partition="30",topic="__consumer_offsets",} 0.0
+kafka_log_size{partition="29",topic="__consumer_offsets",} 0.0
+kafka_log_size{partition="15",topic="__consumer_offsets",} 0.0
+kafka_log_size{partition="10",topic="__consumer_offsets",} 0.0
+kafka_log_size{partition="6",topic="__consumer_offsets",} 0.0
+kafka_log_size{partition="36",topic="__consumer_offsets",} 0.0
+kafka_log_size{partition="23",topic="__consumer_offsets",} 0.0
+kafka_log_size{partition="31",topic="__consumer_offsets",} 0.0
+kafka_log_size{partition="45",topic="__consumer_offsets",} 0.0
+kafka_log_size{partition="1",topic="__consumer_offsets",} 0.0
+kafka_log_size{partition="49",topic="__consumer_offsets",} 0.0
+kafka_log_size{partition="16",topic="__consumer_offsets",} 822.0
+kafka_log_size{partition="40",topic="__consumer_offsets",} 0.0
+kafka_log_size{partition="27",topic="__consumer_offsets",} 0.0
+kafka_log_size{partition="14",topic="__consumer_offsets",} 0.0
+kafka_log_size{partition="35",topic="__consumer_offsets",} 0.0
+kafka_log_size{partition="48",topic="__consumer_offsets",} 0.0
+kafka_log_size{partition="32",topic="__consumer_offsets",} 0.0
+kafka_log_size{partition="8",topic="__consumer_offsets",} 0.0
+kafka_log_size{partition="33",topic="__consumer_offsets",} 0.0
+kafka_log_size{partition="13",topic="__consumer_offsets",} 0.0
+kafka_log_size{partition="34",topic="__consumer_offsets",} 0.0
+kafka_log_size{partition="7",topic="__consumer_offsets",} 0.0
+kafka_log_size{partition="28",topic="__consumer_offsets",} 0.0
+# HELP kafka_server_delayedoperationpurgatory_purgatorysize_delayedoperation_rebalance Attribute exposed for management (kafka.server<type=DelayedOperationPurgatory, name=PurgatorySize, delayedOperation=Rebalance><>Value)
+# TYPE kafka_server_delayedoperationpurgatory_purgatorysize_delayedoperation_rebalance gauge
+kafka_server_delayedoperationpurgatory_purgatorysize_delayedoperation_rebalance 0.0
+# HELP kafka_controller_controllerstats_topicchangerateandtimems Attribute exposed for management (kafka.controller<type=ControllerStats, name=TopicChangeRateAndTimeMs><>Count)
+# TYPE kafka_controller_controllerstats_topicchangerateandtimems gauge
+kafka_controller_controllerstats_topicchangerateandtimems 0.0
+# HELP kafka_log_logstartoffset Attribute exposed for management (kafka.log<type=Log, name=LogStartOffset, topic=__consumer_offsets, partition=33><>Value)
+# TYPE kafka_log_logstartoffset gauge
+kafka_log_logstartoffset{partition="33",topic="__consumer_offsets",} 0.0
+kafka_log_logstartoffset{partition="3",topic="__consumer_offsets",} 0.0
+kafka_log_logstartoffset{partition="25",topic="__consumer_offsets",} 0.0
+kafka_log_logstartoffset{partition="18",topic="__consumer_offsets",} 0.0
+kafka_log_logstartoffset{partition="12",topic="__consumer_offsets",} 0.0
+kafka_log_logstartoffset{partition="46",topic="__consumer_offsets",} 0.0
+kafka_log_logstartoffset{partition="4",topic="__consumer_offsets",} 0.0
+kafka_log_logstartoffset{partition="9",topic="__consumer_offsets",} 0.0
+kafka_log_logstartoffset{partition="17",topic="__consumer_offsets",} 0.0
+kafka_log_logstartoffset{partition="41",topic="__consumer_offsets",} 0.0
+kafka_log_logstartoffset{partition="32",topic="__consumer_offsets",} 0.0
+kafka_log_logstartoffset{partition="26",topic="__consumer_offsets",} 0.0
+kafka_log_logstartoffset{partition="0",topic="test",} 0.0
+kafka_log_logstartoffset{partition="47",topic="__consumer_offsets",} 0.0
+kafka_log_logstartoffset{partition="13",topic="__consumer_offsets",} 0.0
+kafka_log_logstartoffset{partition="27",topic="__consumer_offsets",} 0.0
+kafka_log_logstartoffset{partition="16",topic="__consumer_offsets",} 0.0
+kafka_log_logstartoffset{partition="21",topic="__consumer_offsets",} 0.0
+kafka_log_logstartoffset{partition="34",topic="__consumer_offsets",} 0.0
+kafka_log_logstartoffset{partition="2",topic="__consumer_offsets",} 0.0
+kafka_log_logstartoffset{partition="20",topic="__consumer_offsets",} 0.0
+kafka_log_logstartoffset{partition="48",topic="__consumer_offsets",} 0.0
+kafka_log_logstartoffset{partition="40",topic="__consumer_offsets",} 0.0
+kafka_log_logstartoffset{partition="29",topic="__consumer_offsets",} 0.0
+kafka_log_logstartoffset{partition="14",topic="__consumer_offsets",} 0.0
+kafka_log_logstartoffset{partition="35",topic="__consumer_offsets",} 0.0
+kafka_log_logstartoffset{partition="1",topic="__consumer_offsets",} 0.0
+kafka_log_logstartoffset{partition="23",topic="__consumer_offsets",} 0.0
+kafka_log_logstartoffset{partition="43",topic="__consumer_offsets",} 0.0
+kafka_log_logstartoffset{partition="28",topic="__consumer_offsets",} 0.0
+kafka_log_logstartoffset{partition="15",topic="__consumer_offsets",} 0.0
+kafka_log_logstartoffset{partition="49",topic="__consumer_offsets",} 0.0
+kafka_log_logstartoffset{partition="30",topic="__consumer_offsets",} 0.0
+kafka_log_logstartoffset{partition="36",topic="__consumer_offsets",} 0.0
+kafka_log_logstartoffset{partition="22",topic="__consumer_offsets",} 0.0
+kafka_log_logstartoffset{partition="0",topic="__consumer_offsets",} 0.0
+kafka_log_logstartoffset{partition="11",topic="__consumer_offsets",} 0.0
+kafka_log_logstartoffset{partition="45",topic="__consumer_offsets",} 0.0
+kafka_log_logstartoffset{partition="31",topic="__consumer_offsets",} 0.0
+kafka_log_logstartoffset{partition="8",topic="__consumer_offsets",} 0.0
+kafka_log_logstartoffset{partition="42",topic="__consumer_offsets",} 0.0
+kafka_log_logstartoffset{partition="19",topic="__consumer_offsets",} 0.0
+kafka_log_logstartoffset{partition="37",topic="__consumer_offsets",} 0.0
+kafka_log_logstartoffset{partition="5",topic="__consumer_offsets",} 0.0
+kafka_log_logstartoffset{partition="10",topic="__consumer_offsets",} 0.0
+kafka_log_logstartoffset{partition="24",topic="__consumer_offsets",} 0.0
+kafka_log_logstartoffset{partition="39",topic="__consumer_offsets",} 0.0
+kafka_log_logstartoffset{partition="6",topic="__consumer_offsets",} 0.0
+kafka_log_logstartoffset{partition="7",topic="__consumer_offsets",} 0.0
+kafka_log_logstartoffset{partition="38",topic="__consumer_offsets",} 0.0
+kafka_log_logstartoffset{partition="44",topic="__consumer_offsets",} 0.0
+# HELP kafka_server_brokertopicmetrics_bytesrejected_total Attribute exposed for management (kafka.server<type=BrokerTopicMetrics, name=BytesRejectedPerSec><>Count)
+# TYPE kafka_server_brokertopicmetrics_bytesrejected_total counter
+kafka_server_brokertopicmetrics_bytesrejected_total 0.0
+# HELP kafka_network_requestchannel_requestqueuesize Attribute exposed for management (kafka.network<type=RequestChannel, name=RequestQueueSize><>Value)
+# TYPE kafka_network_requestchannel_requestqueuesize gauge
+kafka_network_requestchannel_requestqueuesize 0.0
+# HELP kafka_server_replicamanager_isrexpands_total Attribute exposed for management (kafka.server<type=ReplicaManager, name=IsrExpandsPerSec><>Count)
+# TYPE kafka_server_replicamanager_isrexpands_total counter
+kafka_server_replicamanager_isrexpands_total 0.0
+# HELP kafka_server_replicamanager_leadercount Attribute exposed for management (kafka.server<type=ReplicaManager, name=LeaderCount><>Value)
+# TYPE kafka_server_replicamanager_leadercount gauge
+kafka_server_replicamanager_leadercount 51.0
+# HELP kafka_server_replicamanager_isrshrinks_total Attribute exposed for management (kafka.server<type=ReplicaManager, name=IsrShrinksPerSec><>Count)
+# TYPE kafka_server_replicamanager_isrshrinks_total counter
+kafka_server_replicamanager_isrshrinks_total 0.0
+# HELP kafka_network_requestchannel_responsequeuesize_processor_1 Attribute exposed for management (kafka.network<type=RequestChannel, name=ResponseQueueSize, processor=1><>Value)
+# TYPE kafka_network_requestchannel_responsequeuesize_processor_1 gauge
+kafka_network_requestchannel_responsequeuesize_processor_1 0.0
+# HELP kafka_network_requestchannel_responsequeuesize_processor_0 Attribute exposed for management (kafka.network<type=RequestChannel, name=ResponseQueueSize, processor=0><>Value)
+# TYPE kafka_network_requestchannel_responsequeuesize_processor_0 gauge
+kafka_network_requestchannel_responsequeuesize_processor_0 0.0
+# HELP kafka_network_requestmetrics_responsesendtimems Attribute exposed for management (kafka.network<type=RequestMetrics, name=ResponseSendTimeMs, request=CreateTopics><>Count)
+# TYPE kafka_network_requestmetrics_responsesendtimems gauge
+kafka_network_requestmetrics_responsesendtimems{request="CreateTopics",} 0.0
+kafka_network_requestmetrics_responsesendtimems{request="LeaveGroup",} 0.0
+kafka_network_requestmetrics_responsesendtimems{request="SaslAuthenticate",} 0.0
+kafka_network_requestmetrics_responsesendtimems{request="TxnOffsetCommit",} 0.0
+kafka_network_requestmetrics_responsesendtimems{request="Produce",} 0.0
+kafka_network_requestmetrics_responsesendtimems{request="RenewDelegationToken",} 0.0
+kafka_network_requestmetrics_responsesendtimems{request="EndTxn",} 0.0
+kafka_network_requestmetrics_responsesendtimems{request="DescribeConfigs",} 0.0
+kafka_network_requestmetrics_responsesendtimems{request="WriteTxnMarkers",} 0.0
+kafka_network_requestmetrics_responsesendtimems{request="OffsetFetch",} 0.0
+kafka_network_requestmetrics_responsesendtimems{request="DescribeDelegationToken",} 0.0
+kafka_network_requestmetrics_responsesendtimems{request="DescribeGroups",} 0.0
+kafka_network_requestmetrics_responsesendtimems{request="CreateDelegationToken",} 0.0
+kafka_network_requestmetrics_responsesendtimems{request="CreatePartitions",} 0.0
+kafka_network_requestmetrics_responsesendtimems{request="DescribeAcls",} 0.0
+kafka_network_requestmetrics_responsesendtimems{request="DeleteAcls",} 0.0
+kafka_network_requestmetrics_responsesendtimems{request="Fetch",} 0.0
+kafka_network_requestmetrics_responsesendtimems{request="AlterConfigs",} 0.0
+kafka_network_requestmetrics_responsesendtimems{request="ListGroups",} 0.0
+kafka_network_requestmetrics_responsesendtimems{request="Heartbeat",} 0.0
+kafka_network_requestmetrics_responsesendtimems{request="UpdateMetadata",} 2.0
+kafka_network_requestmetrics_responsesendtimems{request="AlterReplicaLogDirs",} 0.0
+kafka_network_requestmetrics_responsesendtimems{request="FindCoordinator",} 0.0
+kafka_network_requestmetrics_responsesendtimems{request="DeleteRecords",} 0.0
+kafka_network_requestmetrics_responsesendtimems{request="SyncGroup",} 0.0
+kafka_network_requestmetrics_responsesendtimems{request="ListOffsets",} 0.0
+kafka_network_requestmetrics_responsesendtimems{request="StopReplica",} 0.0
+kafka_network_requestmetrics_responsesendtimems{request="SaslHandshake",} 0.0
+kafka_network_requestmetrics_responsesendtimems{request="Metadata",} 0.0
+kafka_network_requestmetrics_responsesendtimems{request="ControlledShutdown",} 0.0
+kafka_network_requestmetrics_responsesendtimems{request="OffsetCommit",} 0.0
+kafka_network_requestmetrics_responsesendtimems{request="LeaderAndIsr",} 1.0
+kafka_network_requestmetrics_responsesendtimems{request="ExpireDelegationToken",} 0.0
+kafka_network_requestmetrics_responsesendtimems{request="DeleteTopics",} 0.0
+kafka_network_requestmetrics_responsesendtimems{request="AddPartitionsToTxn",} 0.0
+kafka_network_requestmetrics_responsesendtimems{request="InitProducerId",} 0.0
+kafka_network_requestmetrics_responsesendtimems{request="DeleteGroups",} 0.0
+kafka_network_requestmetrics_responsesendtimems{request="DescribeLogDirs",} 0.0
+kafka_network_requestmetrics_responsesendtimems{request="ApiVersions",} 0.0
+kafka_network_requestmetrics_responsesendtimems{request="OffsetForLeaderEpoch",} 0.0
+kafka_network_requestmetrics_responsesendtimems{request="FetchConsumer",} 0.0
+kafka_network_requestmetrics_responsesendtimems{request="AddOffsetsToTxn",} 0.0
+kafka_network_requestmetrics_responsesendtimems{request="FetchFollower",} 0.0
+kafka_network_requestmetrics_responsesendtimems{request="CreateAcls",} 0.0
+kafka_network_requestmetrics_responsesendtimems{request="JoinGroup",} 0.0
+# HELP kafka_network_requestmetrics_requestqueuetimems Attribute exposed for management (kafka.network<type=RequestMetrics, name=RequestQueueTimeMs, request=Heartbeat><>Count)
+# TYPE kafka_network_requestmetrics_requestqueuetimems gauge
+kafka_network_requestmetrics_requestqueuetimems{request="Heartbeat",} 0.0
+kafka_network_requestmetrics_requestqueuetimems{request="ApiVersions",} 0.0
+kafka_network_requestmetrics_requestqueuetimems{request="DeleteTopics",} 0.0
+kafka_network_requestmetrics_requestqueuetimems{request="OffsetFetch",} 0.0
+kafka_network_requestmetrics_requestqueuetimems{request="AddPartitionsToTxn",} 0.0
+kafka_network_requestmetrics_requestqueuetimems{request="FetchConsumer",} 0.0
+kafka_network_requestmetrics_requestqueuetimems{request="LeaveGroup",} 0.0
+kafka_network_requestmetrics_requestqueuetimems{request="ExpireDelegationToken",} 0.0
+kafka_network_requestmetrics_requestqueuetimems{request="RenewDelegationToken",} 0.0
+kafka_network_requestmetrics_requestqueuetimems{request="FindCoordinator",} 0.0
+kafka_network_requestmetrics_requestqueuetimems{request="DeleteAcls",} 0.0
+kafka_network_requestmetrics_requestqueuetimems{request="AlterReplicaLogDirs",} 0.0
+kafka_network_requestmetrics_requestqueuetimems{request="DeleteGroups",} 0.0
+kafka_network_requestmetrics_requestqueuetimems{request="FetchFollower",} 0.0
+kafka_network_requestmetrics_requestqueuetimems{request="AddOffsetsToTxn",} 0.0
+kafka_network_requestmetrics_requestqueuetimems{request="CreateDelegationToken",} 0.0
+kafka_network_requestmetrics_requestqueuetimems{request="ListGroups",} 0.0
+kafka_network_requestmetrics_requestqueuetimems{request="DescribeLogDirs",} 0.0
+kafka_network_requestmetrics_requestqueuetimems{request="Metadata",} 0.0
+kafka_network_requestmetrics_requestqueuetimems{request="DescribeGroups",} 0.0
+kafka_network_requestmetrics_requestqueuetimems{request="DescribeAcls",} 0.0
+kafka_network_requestmetrics_requestqueuetimems{request="DeleteRecords",} 0.0
+kafka_network_requestmetrics_requestqueuetimems{request="JoinGroup",} 0.0
+kafka_network_requestmetrics_requestqueuetimems{request="LeaderAndIsr",} 1.0
+kafka_network_requestmetrics_requestqueuetimems{request="OffsetCommit",} 0.0
+kafka_network_requestmetrics_requestqueuetimems{request="UpdateMetadata",} 2.0
+kafka_network_requestmetrics_requestqueuetimems{request="EndTxn",} 0.0
+kafka_network_requestmetrics_requestqueuetimems{request="Fetch",} 0.0
+kafka_network_requestmetrics_requestqueuetimems{request="Produce",} 0.0
+kafka_network_requestmetrics_requestqueuetimems{request="AlterConfigs",} 0.0
+kafka_network_requestmetrics_requestqueuetimems{request="ListOffsets",} 0.0
+kafka_network_requestmetrics_requestqueuetimems{request="SyncGroup",} 0.0
+kafka_network_requestmetrics_requestqueuetimems{request="ControlledShutdown",} 0.0
+kafka_network_requestmetrics_requestqueuetimems{request="DescribeConfigs",} 0.0
+kafka_network_requestmetrics_requestqueuetimems{request="OffsetForLeaderEpoch",} 0.0
+kafka_network_requestmetrics_requestqueuetimems{request="CreateTopics",} 0.0
+kafka_network_requestmetrics_requestqueuetimems{request="DescribeDelegationToken",} 0.0
+kafka_network_requestmetrics_requestqueuetimems{request="CreatePartitions",} 0.0
+kafka_network_requestmetrics_requestqueuetimems{request="StopReplica",} 0.0
+kafka_network_requestmetrics_requestqueuetimems{request="SaslHandshake",} 0.0
+kafka_network_requestmetrics_requestqueuetimems{request="WriteTxnMarkers",} 0.0
+kafka_network_requestmetrics_requestqueuetimems{request="CreateAcls",} 0.0
+kafka_network_requestmetrics_requestqueuetimems{request="TxnOffsetCommit",} 0.0
+kafka_network_requestmetrics_requestqueuetimems{request="InitProducerId",} 0.0
+kafka_network_requestmetrics_requestqueuetimems{request="SaslAuthenticate",} 0.0
+# HELP kafka_network_requestchannel_responsequeuesize_processor_2 Attribute exposed for management (kafka.network<type=RequestChannel, name=ResponseQueueSize, processor=2><>Value)
+# TYPE kafka_network_requestchannel_responsequeuesize_processor_2 gauge
+kafka_network_requestchannel_responsequeuesize_processor_2 0.0
+# HELP kafka_server_delayedoperationpurgatory_purgatorysize_delayedoperation_produce Attribute exposed for management (kafka.server<type=DelayedOperationPurgatory, name=PurgatorySize, delayedOperation=Produce><>Value)
+# TYPE kafka_server_delayedoperationpurgatory_purgatorysize_delayedoperation_produce gauge
+kafka_server_delayedoperationpurgatory_purgatorysize_delayedoperation_produce 0.0
+# HELP kafka_server_delayedoperationpurgatory_numdelayedoperations_delayedoperation_rebalance Attribute exposed for management (kafka.server<type=DelayedOperationPurgatory, name=NumDelayedOperations, delayedOperation=Rebalance><>Value)
+# TYPE kafka_server_delayedoperationpurgatory_numdelayedoperations_delayedoperation_rebalance gauge
+kafka_server_delayedoperationpurgatory_numdelayedoperations_delayedoperation_rebalance 0.0
+# HELP kafka_server_brokertopicmetrics_bytesin_total Attribute exposed for management (kafka.server<type=BrokerTopicMetrics, name=BytesInPerSec><>Count)
+# TYPE kafka_server_brokertopicmetrics_bytesin_total counter
+kafka_server_brokertopicmetrics_bytesin_total 0.0
+# HELP kafka_controller_controllerchannelmanager_totalqueuesize Attribute exposed for management (kafka.controller<type=ControllerChannelManager, name=TotalQueueSize><>Value)
+# TYPE kafka_controller_controllerchannelmanager_totalqueuesize gauge
+kafka_controller_controllerchannelmanager_totalqueuesize 0.0
+# HELP kafka_server_brokertopicmetrics_fetchmessageconversions_total Attribute exposed for management (kafka.server<type=BrokerTopicMetrics, name=FetchMessageConversionsPerSec><>Count)
+# TYPE kafka_server_brokertopicmetrics_fetchmessageconversions_total counter
+kafka_server_brokertopicmetrics_fetchmessageconversions_total 0.0
+# HELP jmx_scrape_duration_seconds Time this JMX scrape took, in seconds.
+# TYPE jmx_scrape_duration_seconds gauge
+jmx_scrape_duration_seconds 0.696569924
+# HELP jmx_scrape_error Non-zero if this scrape failed.
+# TYPE jmx_scrape_error gauge
+jmx_scrape_error 0.0
+# HELP jvm_gc_collection_seconds Time spent in a given JVM garbage collector in seconds.
+# TYPE jvm_gc_collection_seconds summary
+jvm_gc_collection_seconds_count{gc="G1 Young Generation",} 165.0
+jvm_gc_collection_seconds_sum{gc="G1 Young Generation",} 5.142
+jvm_gc_collection_seconds_count{gc="G1 Old Generation",} 0.0
+jvm_gc_collection_seconds_sum{gc="G1 Old Generation",} 0.0
+# HELP process_cpu_seconds_total Total user and system CPU time spent in seconds.
+# TYPE process_cpu_seconds_total counter
+process_cpu_seconds_total 523.8
+# HELP process_start_time_seconds Start time of the process since unix epoch in seconds.
+# TYPE process_start_time_seconds gauge
+process_start_time_seconds 1.534920251261E9
+# HELP process_open_fds Number of open file descriptors.
+# TYPE process_open_fds gauge
+process_open_fds 186.0
+# HELP process_max_fds Maximum number of open file descriptors.
+# TYPE process_max_fds gauge
+process_max_fds 65536.0
+# HELP process_virtual_memory_bytes Virtual memory size in bytes.
+# TYPE process_virtual_memory_bytes gauge
+process_virtual_memory_bytes 1.1954233344E10
+# HELP process_resident_memory_bytes Resident memory size in bytes.
+# TYPE process_resident_memory_bytes gauge
+process_resident_memory_bytes 1.07943936E9
+# HELP jvm_info JVM version info
+# TYPE jvm_info gauge
+jvm_info{version="1.8.0_131-8u131-b11-2ubuntu1.16.04.3-b11",vendor="Oracle Corporation",} 1.0
