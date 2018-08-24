@@ -6,32 +6,32 @@ jmx_config_reload_success_total 0.0
 jmx_config_reload_failure_total 0.0
 # HELP jvm_memory_bytes_used Used bytes of a given JVM memory area.
 # TYPE jvm_memory_bytes_used gauge
-jvm_memory_bytes_used{area="heap",} 4.1921024E8
-jvm_memory_bytes_used{area="nonheap",} 5.4597368E7
+jvm_memory_bytes_used{area="heap",} 4.92598544E8
+jvm_memory_bytes_used{area="nonheap",} 5.4418488E7
 # HELP jvm_memory_bytes_committed Committed (bytes) of a given JVM memory area.
 # TYPE jvm_memory_bytes_committed gauge
 jvm_memory_bytes_committed{area="heap",} 1.073741824E9
-jvm_memory_bytes_committed{area="nonheap",} 5.554176E7
+jvm_memory_bytes_committed{area="nonheap",} 5.5345152E7
 # HELP jvm_memory_bytes_max Max (bytes) of a given JVM memory area.
 # TYPE jvm_memory_bytes_max gauge
 jvm_memory_bytes_max{area="heap",} 1.073741824E9
 jvm_memory_bytes_max{area="nonheap",} -1.0
 # HELP jvm_memory_pool_bytes_used Used bytes of a given JVM memory pool.
 # TYPE jvm_memory_pool_bytes_used gauge
-jvm_memory_pool_bytes_used{pool="Code Cache",} 1.6976896E7
-jvm_memory_pool_bytes_used{pool="Metaspace",} 3.3237496E7
+jvm_memory_pool_bytes_used{pool="Code Cache",} 1.6814784E7
+jvm_memory_pool_bytes_used{pool="Metaspace",} 3.3220728E7
 jvm_memory_pool_bytes_used{pool="Compressed Class Space",} 4382976.0
-jvm_memory_pool_bytes_used{pool="G1 Eden Space",} 2.62144E8
+jvm_memory_pool_bytes_used{pool="G1 Eden Space",} 3.3554432E8
 jvm_memory_pool_bytes_used{pool="G1 Survivor Space",} 1048576.0
-jvm_memory_pool_bytes_used{pool="G1 Old Gen",} 1.56017664E8
+jvm_memory_pool_bytes_used{pool="G1 Old Gen",} 1.56005648E8
 # HELP jvm_memory_pool_bytes_committed Committed bytes of a given JVM memory pool.
 # TYPE jvm_memory_pool_bytes_committed gauge
-jvm_memory_pool_bytes_committed{pool="Code Cache",} 1.7170432E7
+jvm_memory_pool_bytes_committed{pool="Code Cache",} 1.6973824E7
 jvm_memory_pool_bytes_committed{pool="Metaspace",} 3.3865728E7
 jvm_memory_pool_bytes_committed{pool="Compressed Class Space",} 4505600.0
-jvm_memory_pool_bytes_committed{pool="G1 Eden Space",} 6.75282944E8
+jvm_memory_pool_bytes_committed{pool="G1 Eden Space",} 3.63855872E8
 jvm_memory_pool_bytes_committed{pool="G1 Survivor Space",} 1048576.0
-jvm_memory_pool_bytes_committed{pool="G1 Old Gen",} 3.97410304E8
+jvm_memory_pool_bytes_committed{pool="G1 Old Gen",} 7.08837376E8
 # HELP jvm_memory_pool_bytes_max Max bytes of a given JVM memory pool.
 # TYPE jvm_memory_pool_bytes_max gauge
 jvm_memory_pool_bytes_max{pool="Code Cache",} 2.5165824E8
@@ -203,25 +203,25 @@ kafka_server_delayedoperationpurgatory_purgatorysize_delayedoperation_topic 0.0
 kafka_server_delayedoperationpurgatory_numdelayedoperations_delayedoperation_deleterecords 0.0
 # HELP kafka_log_logcleanermanager_time_since_last_run_ms_value Attribute exposed for management (kafka.log<type=LogCleanerManager, name=time-since-last-run-ms><>Value)
 # TYPE kafka_log_logcleanermanager_time_since_last_run_ms_value counter
-kafka_log_logcleanermanager_time_since_last_run_ms_value 2438.0
+kafka_log_logcleanermanager_time_since_last_run_ms_value 7294.0
 # HELP kafka_log_logcleanermanager_max_dirty_percent_value Attribute exposed for management (kafka.log<type=LogCleanerManager, name=max-dirty-percent><>Value)
 # TYPE kafka_log_logcleanermanager_max_dirty_percent_value counter
 kafka_log_logcleanermanager_max_dirty_percent_value 0.0
 # HELP kafka_network_processor_idlepercent_networkprocessor_2 Attribute exposed for management (kafka.network<type=Processor, name=IdlePercent, networkProcessor=2><>Value)
 # TYPE kafka_network_processor_idlepercent_networkprocessor_2 gauge
-kafka_network_processor_idlepercent_networkprocessor_2 1.0063258718929669
+kafka_network_processor_idlepercent_networkprocessor_2 1.003210249122266
 # HELP kafka_network_socketserver_networkprocessoravgidlepercent Attribute exposed for management (kafka.network<type=SocketServer, name=NetworkProcessorAvgIdlePercent><>Value)
 # TYPE kafka_network_socketserver_networkprocessoravgidlepercent gauge
-kafka_network_socketserver_networkprocessoravgidlepercent 1.0047051542169336
+kafka_network_socketserver_networkprocessoravgidlepercent 1.0022772765337127
 # HELP kafka_network_socketserver_memorypoolavailable Attribute exposed for management (kafka.network<type=SocketServer, name=MemoryPoolAvailable><>Value)
 # TYPE kafka_network_socketserver_memorypoolavailable gauge
 kafka_network_socketserver_memorypoolavailable 9.223372036854776E18
 # HELP kafka_network_processor_idlepercent_networkprocessor_0 Attribute exposed for management (kafka.network<type=Processor, name=IdlePercent, networkProcessor=0><>Value)
 # TYPE kafka_network_processor_idlepercent_networkprocessor_0 gauge
-kafka_network_processor_idlepercent_networkprocessor_0 1.002858338841042
+kafka_network_processor_idlepercent_networkprocessor_0 1.0001994791265254
 # HELP kafka_network_processor_idlepercent_networkprocessor_1 Attribute exposed for management (kafka.network<type=Processor, name=IdlePercent, networkProcessor=1><>Value)
 # TYPE kafka_network_processor_idlepercent_networkprocessor_1 gauge
-kafka_network_processor_idlepercent_networkprocessor_1 1.0008004062433682
+kafka_network_processor_idlepercent_networkprocessor_1 1.0039792976604436
 # HELP kafka_controller_controllereventmanager_eventqueuesize Attribute exposed for management (kafka.controller<type=ControllerEventManager, name=EventQueueSize><>Value)
 # TYPE kafka_controller_controllereventmanager_eventqueuesize gauge
 kafka_controller_controllereventmanager_eventqueuesize 0.0
@@ -342,7 +342,7 @@ kafka_network_requestmetrics_remotetimems{request="DescribeGroups",} 0.0
 kafka_server_replicamanager_underminisrpartitioncount 0.0
 # HELP kafka_server_kafkarequesthandlerpool_requesthandleravgidlepercent Attribute exposed for management (kafka.server<type=KafkaRequestHandlerPool, name=RequestHandlerAvgIdlePercent><>Count)
 # TYPE kafka_server_kafkarequesthandlerpool_requesthandleravgidlepercent gauge
-kafka_server_kafkarequesthandlerpool_requesthandleravgidlepercent 8.1754452513671E13
+kafka_server_kafkarequesthandlerpool_requesthandleravgidlepercent 7.6029323900585E13
 # HELP kafka_server_replicaalterlogdirsmanager_maxlag Attribute exposed for management (kafka.server<type=ReplicaAlterLogDirsManager, name=MaxLag, clientId=ReplicaAlterLogDirs><>Value)
 # TYPE kafka_server_replicaalterlogdirsmanager_maxlag gauge
 kafka_server_replicaalterlogdirsmanager_maxlag{clientId="ReplicaAlterLogDirs",} 0.0
@@ -705,7 +705,7 @@ kafka_network_requestmetrics_localtimems{request="Fetch",} 0.0
 kafka_network_requestmetrics_localtimems{request="DeleteAcls",} 0.0
 # HELP kafka_controller_controllereventmanager_eventqueuetimems Attribute exposed for management (kafka.controller<type=ControllerEventManager, name=EventQueueTimeMs><>Count)
 # TYPE kafka_controller_controllereventmanager_eventqueuetimems gauge
-kafka_controller_controllereventmanager_eventqueuetimems 278.0
+kafka_controller_controllereventmanager_eventqueuetimems 259.0
 # HELP kafka_network_requestmetrics_responsequeuetimems Attribute exposed for management (kafka.network<type=RequestMetrics, name=ResponseQueueTimeMs, request=DeleteRecords><>Count)
 # TYPE kafka_network_requestmetrics_responsequeuetimems gauge
 kafka_network_requestmetrics_responsequeuetimems{request="DeleteRecords",} 0.0
@@ -920,7 +920,7 @@ kafka_cluster_partition_underreplicated{partition="26",topic="__consumer_offsets
 kafka_server_brokertopicmetrics_replicationbytesout_total 0.0
 # HELP kafka_controller_controllerstats_autoleaderbalancerateandtimems Attribute exposed for management (kafka.controller<type=ControllerStats, name=AutoLeaderBalanceRateAndTimeMs><>Count)
 # TYPE kafka_controller_controllerstats_autoleaderbalancerateandtimems gauge
-kafka_controller_controllerstats_autoleaderbalancerateandtimems 273.0
+kafka_controller_controllerstats_autoleaderbalancerateandtimems 254.0
 # HELP kafka_controller_controllerstats_partitionreassignmentrateandtimems Attribute exposed for management (kafka.controller<type=ControllerStats, name=PartitionReassignmentRateAndTimeMs><>Count)
 # TYPE kafka_controller_controllerstats_partitionreassignmentrateandtimems gauge
 kafka_controller_controllerstats_partitionreassignmentrateandtimems 1.0
@@ -1223,7 +1223,7 @@ kafka_controller_controllerchannelmanager_totalqueuesize 0.0
 kafka_server_brokertopicmetrics_fetchmessageconversions_total 0.0
 # HELP jmx_scrape_duration_seconds Time this JMX scrape took, in seconds.
 # TYPE jmx_scrape_duration_seconds gauge
-jmx_scrape_duration_seconds 0.696569924
+jmx_scrape_duration_seconds 0.664146649
 # HELP jmx_scrape_error Non-zero if this scrape failed.
 # TYPE jmx_scrape_error gauge
 jmx_scrape_error 0.0
@@ -1235,7 +1235,7 @@ jvm_gc_collection_seconds_count{gc="G1 Old Generation",} 0.0
 jvm_gc_collection_seconds_sum{gc="G1 Old Generation",} 0.0
 # HELP process_cpu_seconds_total Total user and system CPU time spent in seconds.
 # TYPE process_cpu_seconds_total counter
-process_cpu_seconds_total 523.8
+process_cpu_seconds_total 495.0
 # HELP process_start_time_seconds Start time of the process since unix epoch in seconds.
 # TYPE process_start_time_seconds gauge
 process_start_time_seconds 1.534920251261E9
@@ -1250,7 +1250,8 @@ process_max_fds 65536.0
 process_virtual_memory_bytes 1.1954233344E10
 # HELP process_resident_memory_bytes Resident memory size in bytes.
 # TYPE process_resident_memory_bytes gauge
-process_resident_memory_bytes 1.07943936E9
+process_resident_memory_bytes 1.079332864E9
 # HELP jvm_info JVM version info
 # TYPE jvm_info gauge
 jvm_info{version="1.8.0_131-8u131-b11-2ubuntu1.16.04.3-b11",vendor="Oracle Corporation",} 1.0
+
